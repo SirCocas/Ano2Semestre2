@@ -46,7 +46,8 @@ endif: bne $s2, 113, do
 
 wait: li $t0, 0
       li $t1, 515000
-      mult $t1, $a0, $t1 
+      mult $t1, $a0
+      mflo $t1
 for: addi $t0, $t0, 1
      blt $t0, $t1, for
      jr $ra
