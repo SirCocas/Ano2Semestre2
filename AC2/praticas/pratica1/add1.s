@@ -37,7 +37,6 @@ do: li $a0, '\r'
     li $s1,0
 asd:bne $s2, 42, else
     li $s0,0
-    j else2
 else: bne $s2, 45, else2
       li $s0, 1
 else2: bne $s0, 0, endelse
