@@ -35,7 +35,7 @@ do: li $a0, '\r'
     move $s2, $v0 #$s2= c = inkey()
     bne $s2, 114, asd
     li $s1,0
-asd:bne $s2, 42, else
+asd:bne $s2, 43, else
     li $s0,0
 else: bne $s2, 45, else2
       li $s0, 1
