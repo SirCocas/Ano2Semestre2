@@ -4,7 +4,6 @@
 .globl main
 main: li $s0,0 #s0 = s = 0
       li $s1,0 #s1 = cnt = 0
-      li $s2, 0 #s2 = stopped = false
 do: li $a0, '\r'
     li $v0, 3
     li $t0, 3
@@ -38,9 +37,10 @@ do: li $a0, '\r'
     li $s1,0
 asd:bne $s2, 42, else
     li $s0,0
+    j else2
 else: bne $s2, 45, else2
       li $s0, 1
-else2: bne $s2, 0, endelse
+else2: bne $s0, 0, endelse
       addi $s1, $s1, 1
       andi $s1, $s1, 0xFF
       j endif

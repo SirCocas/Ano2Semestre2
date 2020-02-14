@@ -3,7 +3,6 @@ int main(void){
     int s= 0;
     int cnt = 0;
     char c;
-    bool stopped = false;
     do{
         putChar('\r');
         printInt(cnt, 10|3<<16);
@@ -15,11 +14,9 @@ int main(void){
             s=0;
         if (c == '-')
             s = 1;
-        if (c == 's')
-            stopped = ! stopped;
         if (c == 'r')
-            c = 0;
-        if(s == 0 and ! stopped)
+            cnt = 0;
+        if(s == 0)
             cnt = (cnt+1) & 0xFF;
         else
             cnt = (cnt -1) & 0xFF;
