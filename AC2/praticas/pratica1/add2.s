@@ -29,4 +29,41 @@ main: la $s0, str0
       li $a1, 10
       li $v0, 6
       syscall #printInt(strlen(str1),10)
+      la $a0, str2
+      la $a1, str0
+      addi $sp, $sp, -4
+      sw $ra, 0($sp)
+      jal strcpy
+      lw $ra, 0($sp)
+      addi $sp, $sp, 4 #strcpy(str3, str1)
+      la $a0, str2
+      la $a1, str1
+      addi $sp, $sp, -4
+      sw $ra, 0($sp)
+      jal strcat
+      lw $ra, 0($sp)
+      addi $sp, $sp, 4 #strcat(str3, str2)
+      move $a0, $v0
+      li $v0, 8
+      syscall #printStr(strcat(str3, str2))
+      addi $sp, $sp, -4
+      sw $ra, 0($sp)
+      la $a0, str0
+      la $a1, str1
+      jal strcmp
+      lw $ra, 0($sp)
+      addi $sp, $sp,4 #strcmp(str1,str2)
+      move $a0, $v0
+      li $v0, 7
+      syscall  #printInt10(strcmp(str1, str2))
+      li $v0, 0
+      jr $ra
       
+strlen: li $t0,0  #len = 0
+for: lw $t1, 0($v0)  #char(*s)
+     beq $t1, '\0', end
+     addi $t0, $t0, 1  
+     addi $v0, $v0, 4
+     j for
+end: move $v0, $t0
+     jr $ra       
