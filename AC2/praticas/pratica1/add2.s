@@ -97,10 +97,12 @@ endFor: addi $sp, $sp, -4
 
 
 strcmp: 
-for: bne $a0, $a1, endFor
-     lw $t0, 0($a0)
+for: lw $t0, 0($a0)
+     lw $t1, 0($a1)
+     bne $t0, $t1, endFor
      beq $t0, '\0', endFor
      addi $a0, $a0, 4
      addi $a1, $a1, 4
+     j for
 endFor: sub $v0, $a0, $a2
         jr $ra
