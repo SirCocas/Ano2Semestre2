@@ -66,4 +66,41 @@ for: lw $t1, 0($v0)  #char(*s)
      addi $v0, $v0, 4
      j for
 end: move $v0, $t0
-     jr $ra       
+     jr $ra     
+
+#para o strcpy eu ponho o coiso de um lado para o outro-> lw, sw
+
+strcpy: move $t0, $a0 #*p = *dst
+        move $a0, $a1 #*dst = *src
+for: lw $t1, 0($a0) #t1 tem conteudo de dst
+     beq $t1, '\0', endFor
+     lw $t2, 0($a1)
+     sw $t2, 0($a0)
+     addi $a0, 4
+     addi $a1, 4
+     j for
+endFor: move $v0, $t0
+        jr $ra
+
+strcat: move $t0, $a0 #*p = dst
+for: lw $t0, 0($a0)
+     beq $t0, '\0', endFor
+     addi $a0, $a0, 4
+     j for
+endFor: addi $sp, $sp, -4
+        sw $ra, 0($sp)
+        jal strcpy
+        lw $ra, 0($sp)
+        addi $sp, $sp, 4
+        move $v0, $t0
+        jr $ra
+
+
+strcmp: 
+for: bne $a0, $a1, endFor
+     lw $t0, 0($a0)
+     beq $t0, '\0', endFor
+     addi $a0, $a0, 4
+     addi $a1, $a1, 4
+endFor: sub $v0, $a0, $a2
+        jr $ra

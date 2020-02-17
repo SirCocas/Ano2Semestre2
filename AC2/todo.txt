@@ -1,2 +1,2 @@
 AC2:
->testar add1.s na placa (traduzi o código todo mas pode ter erros porque fucking assembly)
+>testar adicional 2 no micro
