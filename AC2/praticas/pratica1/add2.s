@@ -1,9 +1,12 @@
-.globl main
+.data
 str0: .space 84
 str1: .space 84
 str2: .space 164
 sentence1: .asciiz "Introduza 2 strings: "
 sentence2: .asciiz "Resultados:"
+.text
+.globl main
+
 main: la $s0, str0
       la $s1, str1
       la $s2, str2
@@ -60,11 +63,11 @@ main: la $s0, str0
       jr $ra
       
 strlen: li $t0,0  #len = 0
-for: lw $t1, 0($v0)  #char(*s)
+for1: lw $t1, 0($v0)  #char(*s)
      beq $t1, '\0', end
      addi $t0, $t0, 1  
      addi $v0, $v0, 4
-     j for
+     j for1
 end: move $v0, $t0
      jr $ra     
 
@@ -72,22 +75,22 @@ end: move $v0, $t0
 
 strcpy: move $t0, $a0 #*p = *dst
         move $a0, $a1 #*dst = *src
-for: lw $t1, 0($a0) #t1 tem conteudo de dst
-     beq $t1, '\0', endFor
+for2: lw $t1, 0($a0) #t1 tem conteudo de dst
+     beq $t1, '\0', endFor1
      lw $t2, 0($a1)
      sw $t2, 0($a0)
      addi $a0, 4
      addi $a1, 4
-     j for
-endFor: move $v0, $t0
+     j for2
+endFor1: move $v0, $t0
         jr $ra
 
 strcat: move $t0, $a0 #*p = dst
-for: lw $t0, 0($a0)
-     beq $t0, '\0', endFor
+for3: lw $t0, 0($a0)
+     beq $t0, '\0', endFor2
      addi $a0, $a0, 4
-     j for
-endFor: addi $sp, $sp, -4
+     j for3
+endFor2: addi $sp, $sp, -4
         sw $ra, 0($sp)
         jal strcpy
         lw $ra, 0($sp)
@@ -97,12 +100,12 @@ endFor: addi $sp, $sp, -4
 
 
 strcmp: 
-for: lw $t0, 0($a0)
+for4: lw $t0, 0($a0)
      lw $t1, 0($a1)
-     bne $t0, $t1, endFor
-     beq $t0, '\0', endFor
+     bne $t0, $t1, endFor3
+     beq $t0, '\0', endFor3
      addi $a0, $a0, 4
      addi $a1, $a1, 4
-     j for
-endFor: sub $v0, $a0, $a2
+     j for4
+endFor3: sub $v0, $a0, $a2
         jr $ra
