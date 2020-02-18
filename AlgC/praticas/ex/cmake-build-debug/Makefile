@@ -123,32 +123,32 @@ ex/fast:
 	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/build
 .PHONY : ex/fast
 
-Aula0/ex6.o: Aula0/ex6.c.o
+Aula1/Ex4.o: Aula1/Ex4.c.o
 
-.PHONY : Aula0/ex6.o
+.PHONY : Aula1/Ex4.o
 
 # target to build an object file
-Aula0/ex6.c.o:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula0/ex6.c.o
-.PHONY : Aula0/ex6.c.o
+Aula1/Ex4.c.o:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula1/Ex4.c.o
+.PHONY : Aula1/Ex4.c.o
 
-Aula0/ex6.i: Aula0/ex6.c.i
+Aula1/Ex4.i: Aula1/Ex4.c.i
 
-.PHONY : Aula0/ex6.i
+.PHONY : Aula1/Ex4.i
 
 # target to preprocess a source file
-Aula0/ex6.c.i:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula0/ex6.c.i
-.PHONY : Aula0/ex6.c.i
+Aula1/Ex4.c.i:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula1/Ex4.c.i
+.PHONY : Aula1/Ex4.c.i
 
-Aula0/ex6.s: Aula0/ex6.c.s
+Aula1/Ex4.s: Aula1/Ex4.c.s
 
-.PHONY : Aula0/ex6.s
+.PHONY : Aula1/Ex4.s
 
 # target to generate assembly for a file
-Aula0/ex6.c.s:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula0/ex6.c.s
-.PHONY : Aula0/ex6.c.s
+Aula1/Ex4.c.s:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula1/Ex4.c.s
+.PHONY : Aula1/Ex4.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex"
 	@echo "... edit_cache"
-	@echo "... Aula0/ex6.o"
-	@echo "... Aula0/ex6.i"
-	@echo "... Aula0/ex6.s"
+	@echo "... Aula1/Ex4.o"
+	@echo "... Aula1/Ex4.i"
+	@echo "... Aula1/Ex4.s"
 .PHONY : help
 
 

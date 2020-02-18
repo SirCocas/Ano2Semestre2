@@ -57,27 +57,27 @@ include CMakeFiles/ex.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex.dir/flags.make
 
-CMakeFiles/ex.dir/Aula0/ex6.c.o: CMakeFiles/ex.dir/flags.make
-CMakeFiles/ex.dir/Aula0/ex6.c.o: ../Aula0/ex6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ex.dir/Aula0/ex6.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ex.dir/Aula0/ex6.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula0/ex6.c
+CMakeFiles/ex.dir/Aula1/Ex4.c.o: CMakeFiles/ex.dir/flags.make
+CMakeFiles/ex.dir/Aula1/Ex4.c.o: ../Aula1/Ex4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ex.dir/Aula1/Ex4.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ex.dir/Aula1/Ex4.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula1/Ex4.c
 
-CMakeFiles/ex.dir/Aula0/ex6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex.dir/Aula0/ex6.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula0/ex6.c > CMakeFiles/ex.dir/Aula0/ex6.c.i
+CMakeFiles/ex.dir/Aula1/Ex4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex.dir/Aula1/Ex4.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula1/Ex4.c > CMakeFiles/ex.dir/Aula1/Ex4.c.i
 
-CMakeFiles/ex.dir/Aula0/ex6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex.dir/Aula0/ex6.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula0/ex6.c -o CMakeFiles/ex.dir/Aula0/ex6.c.s
+CMakeFiles/ex.dir/Aula1/Ex4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex.dir/Aula1/Ex4.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula1/Ex4.c -o CMakeFiles/ex.dir/Aula1/Ex4.c.s
 
 # Object files for target ex
 ex_OBJECTS = \
-"CMakeFiles/ex.dir/Aula0/ex6.c.o"
+"CMakeFiles/ex.dir/Aula1/Ex4.c.o"
 
 # External object files for target ex
 ex_EXTERNAL_OBJECTS =
 
-ex.exe: CMakeFiles/ex.dir/Aula0/ex6.c.o
+ex.exe: CMakeFiles/ex.dir/Aula1/Ex4.c.o
 ex.exe: CMakeFiles/ex.dir/build.make
 ex.exe: CMakeFiles/ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ex.exe"
