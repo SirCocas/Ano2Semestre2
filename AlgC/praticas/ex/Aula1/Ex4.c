@@ -40,25 +40,8 @@ int main(void){
 int factorian(int i) {
     int sum = 0;
     while(i>0){
-        sum+= results[i%10];//factorial(i%10);  //algarismo menos significativo
+        sum+= results[i%10]; //algarismo menos significativo
         i=i/10;   //joga o algarismo menos significativo fora
     }
     return sum;
 }
-
-int factorial(int cent) {/*
- * método velho que não tem em conta que recebemos sempre um numero entre 0 e 9
-    int res = 1;
-    for (int i = 2; i <= cent; ++i) {
-        res*=i;
-        mult+=1;
-    }
-    return res;*/
-    int results[10]= {1,1,2,6,24,120,720,5040, 40320, 362880};
-    return results[cent];
-}
-
-
-
-
-
