@@ -22,7 +22,8 @@ int main(void){
 }
 
 int f4(int n) {
-    //
+    //O(nlog(n))
+    //resultado O(n^2 log(n))
     int r=0;
     for(int i=1; i<=n; i++){
         for(int j = i; j>=1; j /= 10)
