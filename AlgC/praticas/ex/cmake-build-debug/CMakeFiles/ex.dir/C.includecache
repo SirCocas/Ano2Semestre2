@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula1/Ex4.c
-stdio.h
--
-stdlib.h
--
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula1/armstrong2.c
 limits.h
 -
-time.h
+stdio.h
+-
+math.h
 -
 
