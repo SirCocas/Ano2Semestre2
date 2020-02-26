@@ -1,3 +1,5 @@
+#contador binário crescente de 4 bits
+
 #v = s0
 #base = s1
 .equ SFR_BASE_HI, 0xBF88 # 16 MSbits of SFR area
@@ -13,13 +15,19 @@
 
 .globl main
 main:
+    li $t0, 0
     li $s0, 0  #v = 0
     lui $s1, SFR_BASE_HI
     lw $t0, TRISE($s1)
     andi $t0, $t0, 0xFFFE
     sw $t0, TRISE($s1)   #TRISE = 0
 while:
-    andi $s0, $s0, 0x0001
+    addi $t0, $t0, 1
+    bne $t0, 15, otherStuff
+    li $t0, 0
+    #TODO apagar todos
+otherStuff:    
+    #TODO: ir ligando e apagando 
     bne $s0, 0, else
     andi $s0, $s0, 0xFFFE 
     j endif
