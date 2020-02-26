@@ -7,7 +7,7 @@
 - [ ] Acabar guião 1
 
 ## LFA:
-- [ ] Acabar guião 1
+- [x] Acabar guião 1
 
 ## AlgC: 
 - [x] Acabar guião 1
