@@ -10,3 +10,6 @@ SE:
 
 LFA:
 - [ ] Acabar guião 1
+
+AlgC: 
+- [x] Acabar guião 1
