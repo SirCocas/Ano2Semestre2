@@ -29,6 +29,7 @@ public class Operation {
             System.out.println("Something went wrong in putNumber function");
             System.out.println("Current state:" + this);
             System.out.println("Current double: " + nextDouble);
+            System.exit(-1);
         }
     }
 
@@ -54,6 +55,7 @@ public class Operation {
             return ((Operation) leftNode).putSignal(next);
         }
         System.out.println("Something went wrong in putSignal function");
+        System.exit(-1);
         return -1;
     }
 
