@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Ex7 {
-    public static expression_tree tree = new expression_tree();
+    public static Operation tree = new Operation();
 
     public static void main(String[] args) throws FileNotFoundException {
         createPrefix(new Scanner(new File("math.txt")));
@@ -24,7 +24,7 @@ public class Ex7 {
         in.close();
     }
 
-    private static void print(expression_tree tree) {
+    private static void print(Operation tree) {
         System.out.println(tree.print());
     }
 }
