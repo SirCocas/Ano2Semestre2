@@ -1,5 +1,5 @@
 ## AC2:
-- [ ] Acabar Guião Prático 1 (corrigir extra 2)
+- [x] Acabar Guião Prático 1 (corrigir extra 2)
 - [ ] Acabar Guião Prático 2 (Parte 1 ex 4)
 - [ ] Acabar Guião Prático 3 (Parte 2 ex 1)
 
