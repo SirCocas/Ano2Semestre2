@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.antlr/3">
+    <module_version install_time="1374461643969" last="true" origin="installer" specification_version="3.5">
+        <file crc="2484550642" name="config/Modules/org-antlr.xml"/>
+        <file crc="3749939636" name="modules/ext/antlr3.jar"/>
+        <file crc="1477567474" name="modules/org-antlr.jar"/>
+    </module_version>
+</module>

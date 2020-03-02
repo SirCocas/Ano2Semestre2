@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.parsing.ui">
+    <module_version install_time="1374031976214" last="true" origin="installer" specification_version="1.7">
+        <file crc="615293724" name="config/Modules/org-netbeans-modules-parsing-ui.xml"/>
+        <file crc="2828938413" name="modules/org-netbeans-modules-parsing-ui.jar"/>
+    </module_version>
+</module>

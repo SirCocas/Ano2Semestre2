@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.abego.treelayout.core/1">
+    <module_version install_time="1374461628722" last="true" origin="installer" specification_version="1.0.1">
+        <file crc="2962352092" name="config/Modules/org-abego-treelayout-core.xml"/>
+        <file crc="3655454193" name="modules/ext/org.abego.treelayout.core.jar"/>
+        <file crc="3116609311" name="modules/org-abego-treelayout-core.jar"/>
+    </module_version>
+</module>

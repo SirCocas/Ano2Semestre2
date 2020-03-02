@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.uihandler">
+    <module_version install_time="1374031800583" last="true" origin="installer" specification_version="2.28">
+        <file crc="666970478" name="config/Modules/org-netbeans-modules-uihandler.xml"/>
+        <file crc="1294665558" name="modules/org-netbeans-modules-uihandler.jar"/>
+    </module_version>
+</module>
