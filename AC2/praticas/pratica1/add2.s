@@ -1,3 +1,6 @@
+#TODO: não esquecer de testar isto
+
+
 .data
 str0: .space 84
 str1: .space 84
@@ -86,12 +89,15 @@ endFor1: move $v0, $t0
         jr $ra
 
 strcat: move $t0, $a0 #*p = dst
+        move $t1, $a1
 for3: lw $t0, 0($a0)
      beq $t0, '\0', endFor2
      addi $a0, $a0, 4
      j for3
-endFor2: addi $sp, $sp, -4
+endFor2:addi $sp, $sp, -4
         sw $ra, 0($sp)
+        move $a0, $t0   ## antes não tinha estes moves!!
+        move $a1, $t1
         jal strcpy
         lw $ra, 0($sp)
         addi $sp, $sp, 4
@@ -107,5 +113,5 @@ for4: lw $t0, 0($a0)
      addi $a0, $a0, 4
      addi $a1, $a1, 4
      j for4
-endFor3: sub $v0, $a0, $a2
+endFor3: sub $v0, $t0, $t1   ##antes estava sub $v0, $a0, $a1
         jr $ra

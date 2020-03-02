@@ -8,6 +8,7 @@
 
 ## LFA:
 - [x] Acabar guião 1
+- [ ] Preparar ANTLR
 
 ## AlgC: 
 - [x] Acabar guião 1
