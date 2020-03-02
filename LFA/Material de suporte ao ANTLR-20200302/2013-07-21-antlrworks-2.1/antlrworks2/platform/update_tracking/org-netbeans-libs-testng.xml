@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.libs.testng/1">
-    <module_version install_time="1374031793913" last="true" origin="installer" specification_version="1.7">
-        <file crc="3403742841" name="config/Modules/org-netbeans-libs-testng.xml"/>
-        <file crc="1056733017" name="docs/testng-6.8.1-javadoc.zip"/>
-        <file crc="2447756561" name="modules/ext/testng-6.8.1-dist.jar"/>
-        <file crc="3089003219" name="modules/org-netbeans-libs-testng.jar"/>
-    </module_version>
-</module>

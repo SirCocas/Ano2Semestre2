@@ -1,5 +1,0 @@
-- copy file:
-
-sudo cp Antlr.sublime-package /usr/local/sublime_text_3/Packages/
-
-

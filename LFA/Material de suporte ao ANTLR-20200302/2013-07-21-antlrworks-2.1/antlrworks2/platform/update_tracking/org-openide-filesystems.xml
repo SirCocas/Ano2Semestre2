@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.openide.filesystems">
-    <module_version install_time="1374031736145" last="true" origin="installer" specification_version="8.8">
-        <file crc="4169761098" name="config/ModuleAutoDeps/org-openide-filesystems.xml"/>
-        <file crc="3239775960" name="core/org-openide-filesystems.jar"/>
-    </module_version>
-</module>

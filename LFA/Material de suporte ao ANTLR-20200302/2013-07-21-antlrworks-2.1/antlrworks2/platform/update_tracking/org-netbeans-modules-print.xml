@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.print">
-    <module_version install_time="1374031798923" last="true" origin="installer" specification_version="7.19">
-        <file crc="4227260372" name="config/Modules/org-netbeans-modules-print.xml"/>
-        <file crc="1235706188" name="modules/org-netbeans-modules-print.jar"/>
-    </module_version>
-</module>

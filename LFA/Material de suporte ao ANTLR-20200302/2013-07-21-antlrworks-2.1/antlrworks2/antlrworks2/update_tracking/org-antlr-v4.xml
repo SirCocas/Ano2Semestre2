@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.antlr.v4/4">
-    <module_version install_time="1374461651941" last="true" origin="installer" specification_version="4.0">
-        <file crc="2722612816" name="config/Modules/org-antlr-v4.xml"/>
-        <file crc="652993936" name="modules/ext/antlr4.jar"/>
-        <file crc="1052291057" name="modules/org-antlr-v4.jar"/>
-    </module_version>
-</module>
