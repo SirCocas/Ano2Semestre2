@@ -8,7 +8,7 @@
 
 ### LFA:
 - [x] Acabar guião 1
-- [ ] Preparar ANTLR
+- [x] Preparar ANTLR (linux)
 
 ### AlgC: 
 - [x] Acabar guião 1
