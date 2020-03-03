@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/ex.dir/Aula1/armstrong2.c.o  -o ex.exe -Wl,--out-implib,libex.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/ex.dir/Aula3/Ex1.c.o  -o ex.exe -Wl,--out-implib,libex.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
