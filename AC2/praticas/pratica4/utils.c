@@ -18,6 +18,8 @@ int readDipSwitch(){
 
 int getDispCode(int value){
     int values[16] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71};
+    if(value == 0)
+        return values[0];
     return values[value];
 }
 
@@ -26,8 +28,8 @@ void sendToLeastSigDisp(int toShow){
     TRISB &=0x00FF;
     TRISDbits.TRISD5 = 0;
     TRISDbits.TRISD6 = 0;
-    LATDbits.LATD6 = 0;   
     LATDbits.LATD5 = 1;
+    LATDbits.LATD6 = 0;  
     LATB &= 0x00ff;
     LATB ^= (toShow<<8);
 }
@@ -37,21 +39,24 @@ void sendToMostSigDisp(int toShow){
     TRISB &=0x00FF;
     TRISDbits.TRISD5 = 0;
     TRISDbits.TRISD6 = 0;
+    LATDbits.LATD5 = 0;   
     LATDbits.LATD6 = 1;   
-    LATDbits.LATD5 = 0;
     LATB &= 0x00ff;
     LATB ^= (toShow<<8);
 }
 
-int send2DigNumberToDisp(int value, int base){
+int send2DigNumberToDisp(int value, int base, int timeShown){
     if(base > 16){
         printf("Invalid base!\n");
-        sendToLeastSigDisp(getDispCode(0));
-        sendToMostSigDisp(getDispCode(0));
+        return(0)
     }
     int leastSig = value%base;
     int mostSig = value / base;
-    sendToLeastSigDisp(getDispCode(leastSig));
-    sendToMostSigDisp(getDispCode(mostSig));
+    int c = 0;
+    for(; c<timeShown; c++){
+        sendToMostSigDisp(getDispCode(mostSig));
+        delay(1);
+        sendToLeastSigDisp(getDispCode(leastSig));
+    }
     return 0;
 }

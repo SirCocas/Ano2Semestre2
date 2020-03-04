@@ -2,6 +2,6 @@
 #include "utils.c"
 
 int main(void){
-    send2DigNumberToDisp(1,16);
+    send2DigNumberToDisp(25,10);
     return 0;
 }
