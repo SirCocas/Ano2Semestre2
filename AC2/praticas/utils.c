@@ -36,27 +36,41 @@ void sendToLeastSigDisp(int toShow){
 
 
 void sendToMostSigDisp(int toShow){
+    //here, 0xFFFFF works as a flag for the decimal point
     TRISB &=0x00FF;
     TRISDbits.TRISD5 = 0;
     TRISDbits.TRISD6 = 0;
     LATDbits.LATD5 = 0;   
     LATDbits.LATD6 = 1;   
     LATB &= 0x00ff;
-    LATB ^= (toShow<<8);
+    if(toShow != 0xFFFFF)
+        LATB ^= (toShow<<8);
+    else
+        LATBbits.LATB15 = '1';    
+}
+
+void activateDecPoint(int value){
+    if(value%2 == 0)
+        sendToMostSigDisp(-1);
+    else
+        sendToLeastSigDisp(-1);
 }
 
 int send2DigNumberToDisp(int value, int base, int timeShown){
     if(base > 16){
         printf("Invalid base!\n");
-        return(0)
+        return(0);
     }
     int leastSig = value%base;
     int mostSig = value / base;
     int c = 0;
-    for(; c<timeShown; c++){
+    for(; c<timeShown/3; c++){
+        activateDecPoint(value);
+        delay(1);
         sendToMostSigDisp(getDispCode(mostSig));
         delay(1);
         sendToLeastSigDisp(getDispCode(leastSig));
+        delay(1);
     }
     return 0;
 }

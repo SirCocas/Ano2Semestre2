@@ -6,9 +6,9 @@ int main(void){
     int count = 0;
     while(1){
         count++;
-        if(count > 0xFF)
+        if(count > 60)
             count= 0;
-        send2DigNumberToDisp(count, 16, 500);
+        send2DigNumberToDisp(count, 10, 500);
     }
     return 0;
 }
