@@ -2,7 +2,7 @@
 - [x] Acabar Guião Prático 1
 - [ ] Acabar Guião Prático 2 (Parte 1 ex 4)
 - [ ] Acabar Guião Prático 3 (Parte 2 ex 1)
-- [ ] Acabar Guião Prático 4 (Parte 2 ex1 -> necessário testar este e seguir para os outros porque pretty sure que o código funciona)
+- [ ] Acabar Guião Prático 4 (Parte 3 ex1 -> DP!!)
 
 ### SE:
 - [ ] Acabar guião 1
