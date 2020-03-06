@@ -10,7 +10,7 @@
 ### LFA:
 - [x] Acabar guião 1
 - [x] Preparar ANTLR
-- [ ] Acabar guião 2
+- [ ] Acabar guião 2 (fiquei ex2)
 
 ### AlgC: 
 - [x] Acabar guião 1
