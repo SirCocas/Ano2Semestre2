@@ -5,10 +5,15 @@
 int main(void){
     int count = 0;
     while(1){
-        count++;
-        if(count > 0xFF)
-            count= 0;
-        send2DigNumberToDisp(count, 16, 500);
+        if(count > 11){//0xFF){
+            blink(250, 250, 5);
+            //durante 5 segundos, depois volta
+            count=0;
+        }
+        else{
+            count++;
+            send2DigNumberToDispWithDP(count, 16, 500);
+        }
     }
     return 0;
 }

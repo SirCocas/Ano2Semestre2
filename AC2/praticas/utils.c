@@ -36,27 +36,57 @@ void sendToLeastSigDisp(int toShow){
 
 
 void sendToMostSigDisp(int toShow){
-    //here, 0xFFFFF works as a flag for the decimal point
     TRISB &=0x00FF;
     TRISDbits.TRISD5 = 0;
     TRISDbits.TRISD6 = 0;
     LATDbits.LATD5 = 0;   
     LATDbits.LATD6 = 1;   
     LATB &= 0x00ff;
-    if(toShow != 0xFFFFF)
-        LATB ^= (toShow<<8);
-    else
-        LATBbits.LATB15 = '1';    
+    LATB ^= (toShow<<8);
+        
 }
 
 void activateDecPoint(int value){
-    if(value%2 == 0)
-        sendToMostSigDisp(-1);
-    else
-        sendToLeastSigDisp(-1);
+    if(value%2 == 0){
+        TRISB &=0x00FF;
+        TRISDbits.TRISD5 = 0;
+        TRISDbits.TRISD6 = 0;
+        LATDbits.LATD5 = 0;   
+        LATDbits.LATD6 = 1;   
+        LATB&= 0x00ff;
+        LATBbits.LATB15 = '1';
+    }
+    else{
+        TRISB &=0x00FF;
+        TRISDbits.TRISD5 = 0;
+        TRISDbits.TRISD6 = 0;
+        LATDbits.LATD5 = 1;   
+        LATDbits.LATD6 = 0;   
+        LATB&= 0x00ff;
+        LATBbits.LATB15 = '1';
+    }
 }
 
 int send2DigNumberToDisp(int value, int base, int timeShown){
+    if(base > 16){
+        printf("Invalid base!\n");
+        return(0);
+    }
+    int leastSig = value%base;
+    int mostSig = value / base;
+    int c = 0;
+    for(; c<timeShown/2; c++){
+        sendToMostSigDisp(getDispCode(mostSig));
+        delay(1);
+        sendToLeastSigDisp(getDispCode(leastSig));
+        delay(1);
+    }
+    return 0;
+}
+
+
+
+int send2DigNumberToDispWithDP(int value, int base, int timeShown){
     if(base > 16){
         printf("Invalid base!\n");
         return(0);
@@ -73,4 +103,38 @@ int send2DigNumberToDisp(int value, int base, int timeShown){
         delay(1);
     }
     return 0;
+}
+
+void blankMostSigDisp(){
+    TRISB &=0x00FF;
+    TRISDbits.TRISD5 = 0;
+    TRISDbits.TRISD6 = 0;
+    LATDbits.LATD5 = 0;   
+    LATDbits.LATD6 = 1;   
+    LATB&= 0x00ff;
+}
+
+void blankLeastSigDisp(){
+    TRISB &=0x00FF;
+    TRISDbits.TRISD5 = 0;
+    TRISDbits.TRISD6 = 0;
+    LATDbits.LATD5 = 1;   
+    LATDbits.LATD6 = 0;   
+    LATB&= 0x00ff;
+}
+
+void blink(int timeOn, int timeOff, int secondsBlinking){
+    int time = 0;
+    int numberCycles = secondsBlinking * 500 /(timeOn+timeOff);
+    for(; time < numberCycles; time++){
+        send2DigNumberToDisp(0,10,timeOn);
+        int c = 0;
+        for(; c<timeOff/2; c++){
+            blankMostSigDisp();
+            delay(1);
+            blankLeastSigDisp();
+            delay(1);
+        }
+    }
+   
 }
