@@ -125,7 +125,7 @@ void blankLeastSigDisp(){
 
 void blink(int timeOn, int timeOff, int secondsBlinking){
     int time = 0;
-    int numberCycles = secondsBlinking * 500 /(timeOn+timeOff);
+    int numberCycles = secondsBlinking * 1000 /(timeOn+timeOff);
     for(; time < numberCycles; time++){
         send2DigNumberToDisp(0,10,timeOn);
         int c = 0;
