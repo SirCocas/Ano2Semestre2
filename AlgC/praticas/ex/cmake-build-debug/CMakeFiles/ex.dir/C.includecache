@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula3/Ex1.c
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula3/Ex2.c
+stdlib.h
+-
 stdio.h
 -
 assert.h

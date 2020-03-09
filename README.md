@@ -15,4 +15,4 @@
 ### AlgC: 
 - [x] Acabar guião 1
 - [x] Acabar guião 2
-- [ ] Imprimir e preparar guião 3 (para entregar)
+- [x] Acabar guião 3 (para entregar)
