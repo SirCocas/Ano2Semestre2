@@ -123,32 +123,32 @@ ex/fast:
 	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/build
 .PHONY : ex/fast
 
-Aula3/Ex2.o: Aula3/Ex2.c.o
+RandomStuff/DMQ8.o: RandomStuff/DMQ8.c.o
 
-.PHONY : Aula3/Ex2.o
+.PHONY : RandomStuff/DMQ8.o
 
 # target to build an object file
-Aula3/Ex2.c.o:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula3/Ex2.c.o
-.PHONY : Aula3/Ex2.c.o
+RandomStuff/DMQ8.c.o:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQ8.c.o
+.PHONY : RandomStuff/DMQ8.c.o
 
-Aula3/Ex2.i: Aula3/Ex2.c.i
+RandomStuff/DMQ8.i: RandomStuff/DMQ8.c.i
 
-.PHONY : Aula3/Ex2.i
+.PHONY : RandomStuff/DMQ8.i
 
 # target to preprocess a source file
-Aula3/Ex2.c.i:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula3/Ex2.c.i
-.PHONY : Aula3/Ex2.c.i
+RandomStuff/DMQ8.c.i:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQ8.c.i
+.PHONY : RandomStuff/DMQ8.c.i
 
-Aula3/Ex2.s: Aula3/Ex2.c.s
+RandomStuff/DMQ8.s: RandomStuff/DMQ8.c.s
 
-.PHONY : Aula3/Ex2.s
+.PHONY : RandomStuff/DMQ8.s
 
 # target to generate assembly for a file
-Aula3/Ex2.c.s:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula3/Ex2.c.s
-.PHONY : Aula3/Ex2.c.s
+RandomStuff/DMQ8.c.s:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQ8.c.s
+.PHONY : RandomStuff/DMQ8.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex"
 	@echo "... edit_cache"
-	@echo "... Aula3/Ex2.o"
-	@echo "... Aula3/Ex2.i"
-	@echo "... Aula3/Ex2.s"
+	@echo "... RandomStuff/DMQ8.o"
+	@echo "... RandomStuff/DMQ8.i"
+	@echo "... RandomStuff/DMQ8.s"
 .PHONY : help
 
 

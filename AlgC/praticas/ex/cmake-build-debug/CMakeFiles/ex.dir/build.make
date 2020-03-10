@@ -57,27 +57,27 @@ include CMakeFiles/ex.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex.dir/flags.make
 
-CMakeFiles/ex.dir/Aula3/Ex2.c.o: CMakeFiles/ex.dir/flags.make
-CMakeFiles/ex.dir/Aula3/Ex2.c.o: ../Aula3/Ex2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ex.dir/Aula3/Ex2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ex.dir/Aula3/Ex2.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula3/Ex2.c
+CMakeFiles/ex.dir/RandomStuff/DMQ8.c.o: CMakeFiles/ex.dir/flags.make
+CMakeFiles/ex.dir/RandomStuff/DMQ8.c.o: ../RandomStuff/DMQ8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ex.dir/RandomStuff/DMQ8.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ex.dir/RandomStuff/DMQ8.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/RandomStuff/DMQ8.c
 
-CMakeFiles/ex.dir/Aula3/Ex2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex.dir/Aula3/Ex2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula3/Ex2.c > CMakeFiles/ex.dir/Aula3/Ex2.c.i
+CMakeFiles/ex.dir/RandomStuff/DMQ8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex.dir/RandomStuff/DMQ8.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/RandomStuff/DMQ8.c > CMakeFiles/ex.dir/RandomStuff/DMQ8.c.i
 
-CMakeFiles/ex.dir/Aula3/Ex2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex.dir/Aula3/Ex2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula3/Ex2.c -o CMakeFiles/ex.dir/Aula3/Ex2.c.s
+CMakeFiles/ex.dir/RandomStuff/DMQ8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex.dir/RandomStuff/DMQ8.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/RandomStuff/DMQ8.c -o CMakeFiles/ex.dir/RandomStuff/DMQ8.c.s
 
 # Object files for target ex
 ex_OBJECTS = \
-"CMakeFiles/ex.dir/Aula3/Ex2.c.o"
+"CMakeFiles/ex.dir/RandomStuff/DMQ8.c.o"
 
 # External object files for target ex
 ex_EXTERNAL_OBJECTS =
 
-ex.exe: CMakeFiles/ex.dir/Aula3/Ex2.c.o
+ex.exe: CMakeFiles/ex.dir/RandomStuff/DMQ8.c.o
 ex.exe: CMakeFiles/ex.dir/build.make
 ex.exe: CMakeFiles/ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ex.exe"

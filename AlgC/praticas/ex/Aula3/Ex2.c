@@ -23,7 +23,6 @@ int main(void){
 
 int sequence(int *pInt, int length) {
     assert(length>1);
-    printf("Tamanho: %d\n",length);
     int numberOfComp = 0;
     int bestInd = 0;
     int mostSmaller = 0;
@@ -35,13 +34,13 @@ int sequence(int *pInt, int length) {
                 currentSmaller++;
             }
         }
-        numberOfComp++;
+        //numberOfComp++;
         if(currentSmaller> mostSmaller){
             bestInd = currentIndex;
             mostSmaller= currentSmaller;
         }
     }
-    printf("Number of comparisons: %d\n", numberOfComp);
+    printf("Tamanho: %d Number of comparisons: %d\n",length, numberOfComp);
     return(bestInd);
 }
 
