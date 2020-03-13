@@ -123,32 +123,32 @@ ex/fast:
 	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/build
 .PHONY : ex/fast
 
-RandomStuff/DMQ8.o: RandomStuff/DMQ8.c.o
+RandomStuff/DMQO.o: RandomStuff/DMQO.c.o
 
-.PHONY : RandomStuff/DMQ8.o
+.PHONY : RandomStuff/DMQO.o
 
 # target to build an object file
-RandomStuff/DMQ8.c.o:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQ8.c.o
-.PHONY : RandomStuff/DMQ8.c.o
+RandomStuff/DMQO.c.o:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQO.c.o
+.PHONY : RandomStuff/DMQO.c.o
 
-RandomStuff/DMQ8.i: RandomStuff/DMQ8.c.i
+RandomStuff/DMQO.i: RandomStuff/DMQO.c.i
 
-.PHONY : RandomStuff/DMQ8.i
+.PHONY : RandomStuff/DMQO.i
 
 # target to preprocess a source file
-RandomStuff/DMQ8.c.i:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQ8.c.i
-.PHONY : RandomStuff/DMQ8.c.i
+RandomStuff/DMQO.c.i:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQO.c.i
+.PHONY : RandomStuff/DMQO.c.i
 
-RandomStuff/DMQ8.s: RandomStuff/DMQ8.c.s
+RandomStuff/DMQO.s: RandomStuff/DMQO.c.s
 
-.PHONY : RandomStuff/DMQ8.s
+.PHONY : RandomStuff/DMQO.s
 
 # target to generate assembly for a file
-RandomStuff/DMQ8.c.s:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQ8.c.s
-.PHONY : RandomStuff/DMQ8.c.s
+RandomStuff/DMQO.c.s:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQO.c.s
+.PHONY : RandomStuff/DMQO.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex"
 	@echo "... edit_cache"
-	@echo "... RandomStuff/DMQ8.o"
-	@echo "... RandomStuff/DMQ8.i"
-	@echo "... RandomStuff/DMQ8.s"
+	@echo "... RandomStuff/DMQO.o"
+	@echo "... RandomStuff/DMQO.i"
+	@echo "... RandomStuff/DMQO.s"
 .PHONY : help
 
 

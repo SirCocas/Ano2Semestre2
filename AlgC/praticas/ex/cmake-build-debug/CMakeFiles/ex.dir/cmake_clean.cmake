@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ex.dir/RandomStuff/DMQ8.c.o"
+  "CMakeFiles/ex.dir/RandomStuff/DMQO.c.o"
   "ex.exe"
   "ex.pdb"
   "libex.dll.a"
