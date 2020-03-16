@@ -1,11 +1,9 @@
 grammar Hello;
-mainRule: (greetings|bye)+;
-greetings: 'hello' ID;
-bye: 'bye' ID;
+mainRule: greetings|bye+;
+greetings: 'hello' name;
+bye: 'bye' name;
 
-ID: Name+;
+name: ID+;
 
-Name : FirstLetter| (FirstLetter OtherLetters);
-FirstLetter: [A-Z];
-OtherLetters: [a-z]+;
+ID : [A-Za-z]+;
 WS: [ \t\r\n]+ -> skip;
