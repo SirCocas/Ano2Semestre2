@@ -1,3 +1,15 @@
+# Quarentena:
+- [x] LFA: ler apontamentos do bloco 2
+- [ ] LFA: refazer bloco 2 (prático) (acabei o 8)
+- [ ] AC2: ler intro e semi começar guião 5
+- [ ] AC2: ler intro e semi começar guião 6
+- [ ] AC2: ler intro e semi começar guião 7
+- [ ] AC2: ler slides 6 a 10
+- [ ] SE: fazer exercícios EAC
+- [ ] SE: fazer exercícios NSS
+
+
+
 ### AC2:
 - [x] Acabar Guião Prático 1
 - [ ] Acabar Guião Prático 2 (Parte 1 ex 4)
