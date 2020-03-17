@@ -1,6 +1,6 @@
 # Quarentena:
 - [x] LFA: ler apontamentos do bloco 2
-- [ ] LFA: refazer bloco 2 (prático) (acabei o 8)
+- [ ] LFA: refazer bloco 2 (prático) (erro no 9 - gramática!!)
 - [ ] AC2: ler intro e semi começar guião 5
 - [ ] AC2: ler intro e semi começar guião 6
 - [ ] AC2: ler intro e semi começar guião 7
