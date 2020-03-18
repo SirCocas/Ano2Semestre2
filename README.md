@@ -3,8 +3,8 @@
 - [ ] LFA: refazer bloco 2 (prático) (erro no 9 - gramática!!)
 - [x] AC2: ler slides 9
 - [x] AC2: ler intro e semi começar guião 5
-- [ ] AC2: ler slides 10
-- [ ] AC2: ver vídeo-aula 10 (Timers) -- link nos marcadores!!
+- [x] AC2: ler slides 10
+- [x] AC2: ver vídeo-aula 10 (Timers) -- link nos marcadores!!
 - [ ] AC2: ler intro e semi começar guião 6
 - [ ] AC2: ler intro e semi começar guião 7
 - [ ] SE: fazer exercícios EAC
