@@ -4,7 +4,9 @@
 - [ ] AC2: ler intro e semi começar guião 5
 - [ ] AC2: ler intro e semi começar guião 6
 - [ ] AC2: ler intro e semi começar guião 7
-- [ ] AC2: ler slides 6 a 10
+- [ ] AC2: ler slides 9
+- [ ] AC2: ver vídeo-aula 10 (Timers) -- link nos marcadores!!
+- [ ] AC2: ler slides 10
 - [ ] SE: fazer exercícios EAC
 - [ ] SE: fazer exercícios NSS
 
