@@ -47,6 +47,7 @@ void sendToMostSigDisp(int toShow){
 }
 
 void activateDecPoint(int value){
+    //1 - "normal" decimal point
     if(value%2 == 0){
         TRISB &=0x00FF;
         TRISDbits.TRISD5 = 0;
