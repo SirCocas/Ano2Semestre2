@@ -16,8 +16,8 @@ public class questionParser extends Parser {
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
 	public static final int
-		T__0=1, T__1=2, T__2=3, T__3=4, T__4=5, T__5=6, T__6=7, String=8, Text=9, 
-		Int=10, IGNORE=11, COMMENT=12;
+		T__0=1, T__1=2, T__2=3, T__3=4, T__4=5, T__5=6, String=7, Text=8, Int=9, 
+		IGNORE=10, COMMENT=11;
 	public static final int
 		RULE_main = 0, RULE_question = 1, RULE_answers = 2, RULE_answer = 3;
 	private static String[] makeRuleNames() {
@@ -29,14 +29,14 @@ public class questionParser extends Parser {
 
 	private static String[] makeLiteralNames() {
 		return new String[] {
-			null, "'.'", "'(\"'", "'\") {'", "'}'", "'\"'", "'\":'", "';'"
+			null, "'.'", "'('", "') {'", "'}'", "':'", "';'"
 		};
 	}
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
 	private static String[] makeSymbolicNames() {
 		return new String[] {
-			null, null, null, null, null, null, null, null, "String", "Text", "Int", 
-			"IGNORE", "COMMENT"
+			null, null, null, null, null, null, null, "String", "Text", "Int", "IGNORE", 
+			"COMMENT"
 		};
 	}
 	private static final String[] _SYMBOLIC_NAMES = makeSymbolicNames();
@@ -255,7 +255,7 @@ public class questionParser extends Parser {
 			setState(28);
 			_errHandler.sync(this);
 			_la = _input.LA(1);
-			while (_la==T__4) {
+			while (_la==Text) {
 				{
 				{
 				setState(25);
@@ -310,15 +310,13 @@ public class questionParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(31);
-			match(T__4);
-			setState(32);
 			((AnswerContext)_localctx).text = match(Text);
+			setState(32);
+			match(T__4);
 			setState(33);
-			match(T__5);
-			setState(34);
 			((AnswerContext)_localctx).points = match(Int);
-			setState(35);
-			match(T__6);
+			setState(34);
+			match(T__5);
 			}
 		}
 		catch (RecognitionException re) {
@@ -333,17 +331,16 @@ public class questionParser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3\16(\4\2\t\2\4\3\t"+
+		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3\r\'\4\2\t\2\4\3\t"+
 		"\3\4\4\t\4\4\5\t\5\3\2\7\2\f\n\2\f\2\16\2\17\13\2\3\2\3\2\3\3\3\3\3\3"+
 		"\3\3\3\3\3\3\3\3\3\3\3\3\3\4\7\4\35\n\4\f\4\16\4 \13\4\3\5\3\5\3\5\3\5"+
-		"\3\5\3\5\3\5\2\2\6\2\4\6\b\2\2\2%\2\r\3\2\2\2\4\22\3\2\2\2\6\36\3\2\2"+
-		"\2\b!\3\2\2\2\n\f\5\4\3\2\13\n\3\2\2\2\f\17\3\2\2\2\r\13\3\2\2\2\r\16"+
-		"\3\2\2\2\16\20\3\2\2\2\17\r\3\2\2\2\20\21\7\2\2\3\21\3\3\2\2\2\22\23\7"+
-		"\n\2\2\23\24\7\3\2\2\24\25\7\n\2\2\25\26\7\4\2\2\26\27\7\13\2\2\27\30"+
-		"\7\5\2\2\30\31\5\6\4\2\31\32\7\6\2\2\32\5\3\2\2\2\33\35\5\b\5\2\34\33"+
-		"\3\2\2\2\35 \3\2\2\2\36\34\3\2\2\2\36\37\3\2\2\2\37\7\3\2\2\2 \36\3\2"+
-		"\2\2!\"\7\7\2\2\"#\7\13\2\2#$\7\b\2\2$%\7\f\2\2%&\7\t\2\2&\t\3\2\2\2\4"+
-		"\r\36";
+		"\3\5\3\5\2\2\6\2\4\6\b\2\2\2$\2\r\3\2\2\2\4\22\3\2\2\2\6\36\3\2\2\2\b"+
+		"!\3\2\2\2\n\f\5\4\3\2\13\n\3\2\2\2\f\17\3\2\2\2\r\13\3\2\2\2\r\16\3\2"+
+		"\2\2\16\20\3\2\2\2\17\r\3\2\2\2\20\21\7\2\2\3\21\3\3\2\2\2\22\23\7\t\2"+
+		"\2\23\24\7\3\2\2\24\25\7\t\2\2\25\26\7\4\2\2\26\27\7\n\2\2\27\30\7\5\2"+
+		"\2\30\31\5\6\4\2\31\32\7\6\2\2\32\5\3\2\2\2\33\35\5\b\5\2\34\33\3\2\2"+
+		"\2\35 \3\2\2\2\36\34\3\2\2\2\36\37\3\2\2\2\37\7\3\2\2\2 \36\3\2\2\2!\""+
+		"\7\n\2\2\"#\7\7\2\2#$\7\13\2\2$%\7\b\2\2%\t\3\2\2\2\4\r\36";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {

@@ -3,6 +3,8 @@ import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.tree.*;
 
 public class questionMain {
+   public static String ID = "outro";
+   public static String family = "P1";
    public static void main(String[] args) {
       try {
          // create a CharStream that reads from standard input:

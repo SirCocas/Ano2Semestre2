@@ -1,14 +1,24 @@
 # Quarentena:
 - [x] LFA: ler apontamentos do bloco 2
-- [ ] LFA: refazer bloco 2 (prático) (erro no 9 - gramática!!)
+- [x] LFA: fazer bloco 2 (prático)
 - [x] AC2: ler slides 9
 - [x] AC2: ler intro e semi começar guião 5
 - [x] AC2: ler slides 10
-- [x] AC2: ver vídeo-aula 10 (Timers) -- link nos marcadores!!
+- [x] AC2: ver vídeo-aula 10 (Timers)
 - [ ] AC2: ler intro e semi começar guião 6
 - [ ] AC2: ler intro e semi começar guião 7
 - [ ] SE: fazer exercícios EAC
 - [ ] SE: fazer exercícios NSS
+- [ ] SE: ler slides Diodo
+- [ ] SE: fazer exercícios Diodo
+- [ ] SE: ler slides MosFet
+- [ ] SE: fazer exercícios MosFet
+- [ ] SE: ler slides OpAmps
+- [ ] SE: fazer exercícios OpAmp
+- [ ] SE: ler slides Circuitos Lógicos CMOS
+- [ ] SE: fazer exercícios CMOS
+- [ ] SE: ler slides DAC-ADC
+- [ ] SE: fazer exercícios DAC-ADC
 
 
 
@@ -30,7 +40,7 @@
 ### LFA:
 - [x] Acabar guião 1
 - [x] Preparar ANTLR
-- [ ] Acabar guião 2 (fiquei ex9)
+- [x] Acabar guião 2 
 
 ### AlgC: 
 - [x] Acabar guião 1

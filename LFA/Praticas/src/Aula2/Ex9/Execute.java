@@ -19,7 +19,8 @@ public class Execute extends questionBaseVisitor<String> {
       answerHolder.put(currentQuestionID, answers);
       questions.put(currentFamily, answerHolder);
       String answersFromInput = visit(ctx.answers());
-      System.out.println(currentQuestionText+"\n"+answersFromInput);
+      if(questionMain.ID.equals(currentQuestionID) && questionMain.family.equals(currentFamily))
+         System.out.println(currentQuestionText+"\n"+answersFromInput);
       return null;
    }
 
@@ -32,20 +33,20 @@ public class Execute extends questionBaseVisitor<String> {
       int points = 0;
       String chosenAnswers = "";
       int numberOfAnswers = 0;
-      int numberOfAnswersPerQuestion = 3;
+      int numberOfAnswersPerQuestion = 4;
       for (int i = 0; i < keySet.length; i++) {
-         if(answers.get(keySet[i])!= 0 && points == 0){
-            points+= answers.get(keySet[i]);
-            chosenAnswers+= numberOfAnswers+++") "+keySet[i]+"\n";
-            numberOfAnswers++;
-         }
-         else{
-            if(! (numberOfAnswers == numberOfAnswersPerQuestion -1 && points == 0)){
-               chosenAnswers+= numberOfAnswers+++") "+keySet[i];
-               numberOfAnswers++;
+         boolean full = numberOfAnswers== numberOfAnswersPerQuestion;
+         if(! full){
+            if(answers.get(keySet[i])!= 0 && points == 0){
+               points+= answers.get(keySet[i]);
+               chosenAnswers+= numberOfAnswers+++") "+keySet[i]+"\n";
+            }
+            else{
+               if(numberOfAnswers != numberOfAnswersPerQuestion -1 && answers.get(keySet[i])== 0){
+                  chosenAnswers+= numberOfAnswers+++") "+keySet[i]+"\n";
+               }
             }
          }
-         
       }
       return chosenAnswers;
    }
