@@ -48,13 +48,14 @@ int main(void){
         delay(10);
 
         if(i++ == 25)  //250 ms (4 samples/second)
-        {//Start A/D conversion
+        {
+            //Start A/D conversion
             AD1CON1bits.ASAM = 1;
 
             i = 0;
         }
-            //send "voltage" variable to displays
-            send2DigNumberToDisp(voltage,10, 10);
-        }
+        //send "voltage" variable to displays
+        send2DigNumberToDisp(voltage,10, 10);
+    }
     return 0;
 }
