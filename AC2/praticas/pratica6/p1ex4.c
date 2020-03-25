@@ -41,18 +41,18 @@ int main(void){
 
     IFS1bits.AD1IF = 0;         //Reset AD1IF flag
     EnableInterrupts();
-    AD1CON1bits.ASAM = 1;
 
     int i= 0;
     while(1){
         //wait 10 ms using the core timer
         delay(10);
 
-        if(i++ == 25)  //250 ms (4 samples/second){
-            //Start A/D conversion
+        if(i++ == 25)  //250 ms (4 samples/second)
+        {//Start A/D conversion
             AD1CON1bits.ASAM = 1;
 
             i = 0;
+        }
             //send "voltage" variable to displays
             send2DigNumberToDisp(voltage,10, 10);
         }
