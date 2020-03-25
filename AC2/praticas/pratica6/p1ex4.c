@@ -3,7 +3,7 @@
 
 //relies on code from guide 5 (p1ex5.c) -- if that doesn't work revamp the whole thing
 
-volatile unsigned char voltage = 0; //Global variable
+volatile unsigned int voltage = 0; //Global variable
 
 void _int_(27) isr_adc(void){
     //calculate buffer average (8 samples)
@@ -41,6 +41,8 @@ int main(void){
 
     IFS1bits.AD1IF = 0;         //Reset AD1IF flag
     EnableInterrupts();
+    AD1CON1bits.ASAM = 1;
+
     int i= 0;
     while(1){
         //wait 10 ms using the core timer
@@ -51,19 +53,8 @@ int main(void){
             AD1CON1bits.ASAM = 1;
 
             i = 0;
-        }
-        //send "voltage" variable to displays
-        int numberOfMilisecs = 3;
-        int c = 0;
-        int wholeValue = voltage / 10;
-        int decValue = voltage %10;
-        for(; c < numberOfMilisecs/3; c++){
-            sendToMostSigDisp(getDispCode(wholeValue));
-            delay(1);
-            activateDecPoint(1);
-            delay(1);
-            sendToLeastSigDisp(getDispCode(decValue));
-            delay(1);
+            //send "voltage" variable to displays
+            send2DigNumberToDisp(voltage,10, 10);
         }
     return 0;
 }
