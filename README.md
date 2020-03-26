@@ -1,7 +1,7 @@
 # Quarentena:
 - [x] AlgC: fazer guião 4 (due dia 29) (acabei primeiro)
-- [x] AC2: ver vídeo-aulas 11 e 12 1ª parte- barramentos 1:03:38
-- [ ] AC2: ver vídeo aulas 11 e 12 2ª parte- barramentos
+- [x] AC2: ver vídeo-aulas 11 e 12 1ª parte- barramentos
+- [x] AC2: ver vídeo aulas 11 e 12 2ª parte- barramentos
 - [x] LFA: ler apontamentos do bloco 2
 - [x] LFA: fazer bloco 2 (prático)
 - [x] AC2: ler slides 9
@@ -18,7 +18,7 @@
 - [ ] LFA: fazer prática bloco 6
 - [ ] LFA: ler apontamentos bloco 7
 - [ ] LFA: fazer prática bloco 7
-- [ ] AC2: ler intro e semi começar guião 6
+- [x] AC2: ler intro e semi começar guião 6
 - [ ] AC2: ler slides aulas 11 e 12
 - [ ] AC2: ler intro e semi começar guião 7
 - [ ] SE: fazer exercícios EAC
@@ -47,6 +47,10 @@
 - [ ] Testar p1ex4.c na placa (pratica 5)
 - [ ] Testar p1ex5.c na placa (pratica 5)
 - [ ] Testar p1ex6.c na placa (pratica 5)
+- [x] Testar p1ex1.c na placa (pratica 6) 
+- [ ] Testar p1ex2.c na placa + osciloscópio (pratica 6)
+- [ ] Testar p1ex3.c na placa + osciloscópio (pratica 6)
+- [x] Testar p1ex4.c na placa (pratica 6)
 - [x] Acabar Guião Prático 1
 - [ ] Acabar Guião Prático 2 (Parte 1 ex 4)
 - [ ] Acabar Guião Prático 3 (Parte 2 ex 1)
