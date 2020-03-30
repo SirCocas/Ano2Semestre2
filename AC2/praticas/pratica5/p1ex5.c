@@ -36,7 +36,7 @@ int main(void){
         for(; c < numberOfMilisecs/3; c++){
             sendToMostSigDisp(getDispCode(wholeValue));
             delay(1);
-            activateDecPoint(1);
+            activateDecPoint(0);
             delay(1);
             sendToLeastSigDisp(getDispCode(decValue));
             delay(1);
