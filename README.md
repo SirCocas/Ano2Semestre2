@@ -6,9 +6,10 @@
 - [x] AC2: ler slides 10
 - [x] AC2: ver vídeo-aula 10 (Timers)
 - [x] AC2: ver vídeo-aulas 11 e 12 1ª parte- barramentos
-- [ ] AC2: ver vídeo aulas 11 e 12 2ª parte- barramentos
+- [x] AC2: ver vídeo aulas 11 e 12 2ª parte- barramentos
 - [x] AC2: ler intro e semi começar guião 6
 - [ ] AC2: ler slides aulas 11 e 12
+- [ ] AC2: ver vídeo aula 13
 - [ ] AC2: ler intro e semi começar guião 7
 - [ ] SE: fazer exercícios EAC
 - [ ] SE: fazer exercícios NSS
