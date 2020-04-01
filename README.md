@@ -1,4 +1,7 @@
 # Quarentena:
+- [ ] AC2: testar guião 7 p1ex2.c
+- [ ] AC2: testar guião 7 p1ex3.c
+- [ ] AC2: acabar parte 1 guião 7: fiquei no 3
 - [ ] AC2: mandar parte 1 do guião 7 para jaf@ua.pt
 - [x] AlgC: fazer guião 4 (due dia 29) (acabei primeiro)
 - [x] AlgC: reler slides de do master theorem 

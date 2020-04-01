@@ -1,14 +1,19 @@
 #include <detpic32.h>
 #include "../utils.c"
 int counter = 0;
+int numberOfInterrupts = 0;
 
 void _int_(12) isr_T3(void)
 {  
-   counter++;
-    printInt10(counter);
-    putChar('\n');
-    if(counter == 120)
-        counter = 0;    
+    numberOfInterrupts++;
+    
+    if(numberOfInterrupts %2== 0){
+        counter++;
+        printInt10(counter);
+        putChar('\n');
+        if(counter == 120)
+            counter = 0;    
+    }
 
     IFS0bits.T3IF == 0;   //reset interrupt flag
 }
