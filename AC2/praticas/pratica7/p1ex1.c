@@ -14,14 +14,15 @@ int main(void){
         //wait for T3IF = 1
         while(IFS0bits.T3IF == 0);
 
-        //reset T3IF
-        IFS0bits.T3IF == 0;
-
         counter++;
         printInt10(counter);
         putChar('\n');
         if(counter == 120)
             counter = 0;
+
+        //reset T3IF
+        IFS0bits.T3IF == 0;
+
     }
     return 0;
 }
