@@ -6,7 +6,7 @@ int main(void){
     int counter = 0;
 
     // configure timer t3 (2 Hz with interrupts disabled)
-    T3CONbits.TCKPS = 7; 		// 1:256 prescaler
+    T3CONSET = 0x0072; 		// 1:256 prescaler
 	PR3 = 39062;				// Fout = 2 Hz
     TMR3 = 0; //reset timer 3
     T3CONbits.TON= 1 ; //enable timer 3
