@@ -19,6 +19,7 @@ int main(void){
 
         counter++;
         printInt10(counter);
+        putChar('\n');
         if(counter == 120)
             counter = 0;
     }
