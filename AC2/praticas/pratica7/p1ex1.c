@@ -7,7 +7,7 @@ int main(void){
 
     // configure timer t3 (2 Hz with interrupts disabled)
     T3CONbits.TCKPS = 5; //1:32 prescaler
-    PR3= 2;  //fout = 20MHz / (32*(2+1)) = 2 Hz
+    PR3= 312499;  //fout = 20MHz / (32*(312499+1)) = 2 Hz
     TMR3 = 0; //reset timer 3
     T3CONbits.TON= 1 ; //enable timer 3
     while(1){
