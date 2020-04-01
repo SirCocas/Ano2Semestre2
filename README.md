@@ -1,16 +1,37 @@
 # Quarentena:
+- [x] AlgC: fazer guião 4 (due dia 29) (acabei primeiro)
+- [ ] AlgC: reler slides de do master theorem 
 - [x] LFA: ler apontamentos do bloco 2
 - [x] LFA: fazer bloco 2 (prático)
+- [ ] LFA: ler apontamentos bloco 3
+- [ ] LFA: fazer prática bloco 3
+- [ ] LFA: ler apontamentos bloco 4
+- [ ] LFA: fazer prática bloco 4
+- [ ] LFA: ler apontamentos bloco 5
+- [ ] LFA: fazer prática bloco 5
+- [ ] LFA: ler apontamentos bloco 6
+- [ ] LFA: fazer prática bloco 6
+- [ ] LFA: ler apontamentos bloco 7
+- [ ] LFA: fazer prática bloco 7
 - [x] AC2: ler slides 9
 - [x] AC2: ler intro e semi começar guião 5
 - [x] AC2: ler slides 10
 - [x] AC2: ver vídeo-aula 10 (Timers)
+<<<<<<< HEAD
 - [x] AC2: ver vídeo-aulas 11 e 12 1ª parte- barramentos
 - [x] AC2: ver vídeo aulas 11 e 12 2ª parte- barramentos
 - [x] AC2: ler intro e semi começar guião 6
 - [ ] AC2: ler slides aulas 11 e 12
 - [ ] AC2: ver vídeo aula 13
+=======
+- [x] AC2: ler intro e semi começar guião 6
+- [x] AC2: ver vídeo-aulas 11 e 12 1ª parte- barramentos
+- [x] AC2: ver vídeo aulas 11 e 12 2ª parte- barramentos
+- [x] AC2: ver vídeo aula 13 
+- [ ] AC2: ver vídeo aula 14
+>>>>>>> e059190c049350525077eb69c4a850ecbb84d6fb
 - [ ] AC2: ler intro e semi começar guião 7
+- [ ] SE: acabar guião prático 2 (pôr coisos todos bonitinhos no pdf)
 - [ ] SE: fazer exercícios EAC
 - [ ] SE: fazer exercícios NSS
 - [ ] SE: ler slides Diodo
@@ -23,16 +44,18 @@
 - [ ] SE: fazer exercícios CMOS
 - [ ] SE: ler slides DAC-ADC
 - [ ] SE: fazer exercícios DAC-ADC
+- [ ] SE: fazer guião prático 3
+- [ ] SE: fazer guião prático 4
 
 
 
 ### AC2:
-- [ ] Testar p1ex1.c na placa (pratica 5)
-- [ ] Testar p1ex2.c na placa (pratica 5)
-- [ ] Testar p1ex3.c na placa (pratica 5)
-- [ ] Testar p1ex4.c na placa (pratica 5)
-- [ ] Testar p1ex5.c na placa (pratica 5)
-- [ ] Testar p1ex6.c na placa (pratica 5)
+- [x] Testar p1ex1.c na placa (pratica 5)
+- [x] Testar p1ex2.c na placa (pratica 5)
+- [x] Testar p1ex3.c na placa (pratica 5)
+- [x] Testar p1ex4.c na placa (pratica 5)
+- [x] Testar p1ex5.c na placa (pratica 5)
+- [x] Testar p1ex6.c na placa (pratica 5)
 - [x] Testar p1ex1.c na placa (pratica 6) 
 - [ ] Testar p1ex2.c na placa + osciloscópio (pratica 6)
 - [ ] Testar p1ex3.c na placa + osciloscópio (pratica 6)
@@ -44,6 +67,7 @@
 
 ### SE:
 - [ ] Acabar guião 1
+- [ ] Acabar guião 2
 
 ### LFA:
 - [x] Acabar guião 1
