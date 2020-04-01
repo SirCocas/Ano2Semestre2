@@ -9,12 +9,7 @@ int main(void){
     T3CONbits.TCKPS = 7; 		// 1:256 prescaler
 	PR3 = 39062;				// Fout = 2 Hz
 	TMR3 = 0;					// Reset timer T3 count register
-    IFS0bits.T3IF = 0;
-
-    IPC2bits.T3IP = 2;
-    IEC0bits.T3IE = 0;
-    IFS0bits.T3IF = 0;  
-
+   
 	T3CONbits.TON = 1;			// Enable timer T3 (must be the last command of the )
     
     while(1){
@@ -28,10 +23,7 @@ int main(void){
         printInt10(counter);
         putChar('\n');
         if(counter == 120)
-            counter = 0;
-
-       
-
+            counter = 0;    
     }
     return 0;
 }

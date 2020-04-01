@@ -1,4 +1,5 @@
 # Quarentena:
+- [ ] AC2: mandar parte 1 do guião 7 para jaf@ua.pt
 - [x] AlgC: fazer guião 4 (due dia 29) (acabei primeiro)
 - [x] AlgC: reler slides de do master theorem 
 - [x] LFA: ler apontamentos do bloco 2
