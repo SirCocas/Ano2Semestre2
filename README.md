@@ -21,8 +21,9 @@
 - [x] AC2: ver vídeo-aulas 11 e 12 1ª parte- barramentos
 - [x] AC2: ver vídeo aulas 11 e 12 2ª parte- barramentos
 - [x] AC2: ver vídeo aula 13 
-- [ ] AC2: ver vídeo aula 14
+- [x] AC2: ver vídeo aula 14
 - [ ] AC2: ler intro e semi começar guião 7
+- [ ] SE: acabar guião 1
 - [ ] SE: acabar guião prático 2 (pôr coisos todos bonitinhos no pdf)
 - [ ] SE: fazer exercícios EAC
 - [ ] SE: fazer exercícios NSS
