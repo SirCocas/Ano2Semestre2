@@ -15,11 +15,11 @@ void _int_(12) isr_T3(void)
             counter = 0;    
     }
 
-    IFS0bits.T3IF == 0;   //reset interrupt flag
+    IFS0bits.T3IF = 0;   //reset interrupt flag
 }
 
 int main(void){
-    // configure timer t3 (2 Hz with interrupts disabled)
+    // configure timer t3 (2 Hz with interrupts enabled)
     T3CONbits.TCKPS = 7; 		// 1:256 prescaler
 	PR3 = 39062;				// Fout = 2 Hz
 	TMR3 = 0;					// Reset timer T3 count register

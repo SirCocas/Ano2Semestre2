@@ -1,8 +1,4 @@
 # Quarentena:
-- [ ] AC2: testar guião 7 p1ex2.c
-- [ ] AC2: testar guião 7 p1ex3.c
-- [ ] AC2: acabar parte 1 guião 7: fiquei no 3
-- [ ] AC2: mandar parte 1 do guião 7 para jaf@ua.pt
 - [x] AlgC: fazer guião 4 (due dia 29) (acabei primeiro)
 - [x] AlgC: reler slides de do master theorem 
 - [x] LFA: ler apontamentos do bloco 2
@@ -26,8 +22,9 @@
 - [x] AC2: ver vídeo aulas 11 e 12 2ª parte- barramentos
 - [x] AC2: ver vídeo aula 13 
 - [x] AC2: ver vídeo aula 14
-- [ ] AC2: ver vídeo aula 15
-- [ ] AC2: ler intro e semi começar guião 7
+- [x] AC2: ver vídeo aula 15
+- [x] AC2: acabar parte 1 guião 7
+- [ ] AC2: acabar guião 7 (parte 2)
 - [ ] SE: acabar guião prático 2 (pôr coisos todos bonitinhos no pdf)
 - [ ] SE: fazer exercícios EAC
 - [ ] SE: fazer exercícios NSS
@@ -57,7 +54,12 @@
 - [ ] Testar p1ex2.c na placa + osciloscópio (pratica 6)
 - [ ] Testar p1ex3.c na placa + osciloscópio (pratica 6)
 - [x] Testar p1ex4.c na placa (pratica 6)
-- [ ] Testar p1ex1.c na placa (prática 7)
+- [x] Testar p1ex1.c na placa (prática 7)
+- [ ] Testar p1ex2.c na placa (prática 7)
+- [ ] Testar p1ex3.c na placa (prática 7)
+- [ ] Testar p1ex4.c na placa (prática 7)
+- [ ] Testar p1ex5.c na placa (prática 7)
+- [ ] Testar p1ex6.c na placa (prática 7)
 - [x] Acabar Guião Prático 1
 - [ ] Acabar Guião Prático 2 (Parte 1 ex 4)
 - [ ] Acabar Guião Prático 3 (Parte 2 ex 1)
