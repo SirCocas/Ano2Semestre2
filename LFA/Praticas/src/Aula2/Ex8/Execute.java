@@ -1,105 +1,153 @@
-import java.util.*;
-import java.lang.Math.*;
-public class Execute extends CalculatorBaseVisitor<Double> {
-   HashMap<String, Double> map = new HashMap<>();
-   Stack<String> literals = new Stack<>();
-   @Override public Double visitMain(CalculatorParser.MainContext ctx) {
-      return visitChildren(ctx);
-   }
+import java.util.HashMap;
+import java.util.Scanner;
 
-   @Override public Double visitPrintValue(CalculatorParser.PrintValueContext ctx) {
-      System.out.println(visit(ctx.expr()));
-      return null;
-      //return visitChildren(ctx);
-   }
+public class Execute extends FractionsBaseVisitor<Fraction> {
+   HashMap<String, Fraction> variables = new HashMap<>();
 
-   @Override public Double visitAssignValue(CalculatorParser.AssignValueContext ctx) {
-      Double value = visit(ctx.expr());
-      String varName = ctx.ID().getText();
-      map.put(varName, value);
-      System.out.println(varName+" = "+value);
-      return null;
-      //return visitChildren(ctx);
-   }
-
-   @Override public Double visitPrintLiteral(CalculatorParser.PrintLiteralContext ctx) {
-      visit(ctx.literals());
-      System.out.println(literals.pop());
+   @Override public Fraction visitPrintFraction(FractionsParser.PrintFractionContext ctx) {
+      Fraction toPrint = visit(ctx.statement());
+      System.out.println(toPrint.toString());
       return null;
    }
 
-   @Override public Double visitReturnReduction(CalculatorParser.ReturnReductionContext ctx) {
-      var fraction = ctx.fraction();
-      int upper = Integer.parseInt(fraction.upper.getText());
-      int downer = Integer.parseInt(fraction.downer.getText());
-      if (downer == upper){
-         literals.push("1");
-         return null;
+   @Override public Fraction visitAttribution(FractionsParser.AttributionContext ctx) {
+      String name = ctx.Variable().getText();
+      Fraction value = visit(ctx.statement());
+      variables.put(name, value);
+      return value;    //in this language, attributions work much like C's
+   }
+
+   @Override public Fraction visitDiv(FractionsParser.DivContext ctx) {
+      Fraction first = visit(ctx.statement().get(0));
+      Fraction second = visit(ctx.statement().get(1));
+      return first.div(second);
+   }
+
+   @Override public Fraction visitSub(FractionsParser.SubContext ctx) {
+      Fraction first = visit(ctx.statement().get(0));
+      Fraction second = visit(ctx.statement().get(1));
+      return first.sub(second);
+   }
+
+   @Override public Fraction visitParenthesis(FractionsParser.ParenthesisContext ctx) {
+      return visit(ctx.statement());
+   }
+
+   @Override public Fraction visitMult(FractionsParser.MultContext ctx) {
+      Fraction first = visit(ctx.statement().get(0));
+      Fraction second = visit(ctx.statement().get(1));
+      return first.mult(second);
+   }
+
+   @Override public Fraction visitReadString(FractionsParser.ReadStringContext ctx) {
+      String textToPrint = ctx.String().getText();
+      System.out.print(textToPrint+":");
+      Scanner sc = new Scanner(System.in);
+      String line = "";
+      while(line.isEmpty()){
+         line+=sc.next()+" ";
       }
-      if(downer == 1){
-         literals.push(""+upper);
-         return null;
+      int upper = Integer.parseInt(line.split(" ")[0]);
+      int downer = Integer.parseInt(line.split(" ")[1]);
+      return (new Fraction(upper, downer)).reduce();
+   }
+
+
+   @Override public Fraction visitIsVariable(FractionsParser.IsVariableContext ctx) {
+      String key = ctx.Variable().getText();
+      return variables.get(key);
+   }
+
+   @Override public Fraction visitSum(FractionsParser.SumContext ctx) {
+      Fraction first = visit(ctx.statement().get(0));
+      Fraction second = visit(ctx.statement().get(1));
+      return first.add(second);
+   }
+
+   @Override public Fraction visitPower(FractionsParser.PowerContext ctx) {
+      Fraction frac = visit(ctx.statement());
+      Fraction pow = visit(ctx.numbers());
+      return frac.pow(pow.upper());
+   }
+
+   @Override public Fraction visitReduceFraction(FractionsParser.ReduceFractionContext ctx) {
+      Fraction frac = visit(ctx.statement());
+      return frac.reduce();
+   }
+
+   @Override public Fraction visitNumberIsLiteral(FractionsParser.NumberIsLiteralContext ctx) {
+      return new Fraction(Integer.parseInt(ctx.LITERALS().getText()));
+   }
+
+   @Override public Fraction visitNegativeNumber(FractionsParser.NegativeNumberContext ctx) {
+      Fraction currentNumber = visit(ctx.numbers());
+      return new Fraction(-1*currentNumber.upper());
+   }
+
+   @Override public Fraction visitFraction(FractionsParser.FractionContext ctx) {
+      return new Fraction(visit(ctx.numbers().get(0)).upper(), visit(ctx.numbers().get(1)).upper());
+   }
+}
+
+class Fraction{
+   private int upper;
+   private int downer;
+   public Fraction(int upper, int downer){
+      if(downer == 0){
+         System.out.println("Fractions can't have 0 as a denominator");
+         System.exit(-1);
       }
-      int littlest;
-      if(downer > upper)
-         littlest = downer;
-      else
-         littlest = upper;
-      for (int i = littlest; i > 1; i--) {
-         if(upper % i == 0 && downer % i == 0){
-            upper/=i;
-            downer /=i;
-            break;
+      this.upper = upper;
+      this.downer = downer;
+      this.reduce();
+   }
+   @Override public String toString(){
+      if(downer != 1)
+         return upper+"/"+downer;
+      return upper+"";
+   }
+   public Fraction(int value){
+      this.upper = value;
+      this.downer = 1;
+   }
+   public Fraction div(Fraction other){
+      return (new Fraction(upper*other.downer, downer*other.upper));
+   }
+   public Fraction reduce(){
+      int biggestPos = upper;
+      if(upper< downer){
+         biggestPos = downer;
+      }
+
+      for (int i = biggestPos; i > 1; i--) {
+         if(upper%i == 0 && downer%i == 0){
+            upper= (int) ((double)upper / (double) i);
+            downer= (int) ((double)downer / (double) i);
+            return this;
          }
       }
-      literals.push(upper + "/"+ downer);
-      return null;
+      return this;
    }
 
-   @Override public Double visitExpressPositive(CalculatorParser.ExpressPositiveContext ctx) {
-      return 0+visit(ctx.expr());
+   public Fraction sub(Fraction other){
+      return (new Fraction (upper*other.downer - other.upper*downer, downer*other.downer));
    }
 
-   @Override public Double visitExpressMath(CalculatorParser.ExpressMathContext ctx) {
-      return doMath(visit(ctx.val1), visit(ctx.val2), ctx.op.getText().toCharArray()[0]);
+   public Fraction mult(Fraction other){
+      return (new Fraction(upper*other.upper, downer*other.downer));
    }
 
-   @Override public Double visitExpressFract(CalculatorParser.ExpressFractContext ctx) {
-      String[] fraction = ctx.getText().split("/");
-      return Double.parseDouble(fraction[0])/ Double.parseDouble(fraction[1]);
+   public Fraction add(Fraction other){
+      return (new Fraction(upper*other.downer + other.upper* downer, downer*other.downer));
    }
 
-   @Override public Double visitExpressInt(CalculatorParser.ExpressIntContext ctx) {
-      return Double.parseDouble(ctx.INT().getText());
+   public Fraction pow(int power){
+      return new Fraction((int)Math.pow(upper, power), (int)Math.pow(downer, power));
    }
-
-   @Override public Double visitExpressPower(CalculatorParser.ExpressPowerContext ctx) {
-      return Math.pow(visit(ctx.expr()), Integer.parseInt(ctx.INT().getText()));
+   public int upper(){
+      return upper;
    }
-
-   @Override public Double visitExpressParent(CalculatorParser.ExpressParentContext ctx) {
-      return visit(ctx.expr());
-   }
-
-   @Override public Double visitExpressNegative(CalculatorParser.ExpressNegativeContext ctx) {
-      return 0- visit(ctx.expr());
-   }
-
-   @Override public Double visitExpressVar(CalculatorParser.ExpressVarContext ctx) {
-      return map.get(ctx.ID().getText());
-   }
-
-   @Override public Double visitFraction(CalculatorParser.FractionContext ctx) {
-      return Double.parseDouble(ctx.upper.getText())/ Double.parseDouble(ctx.downer.getText());
-   }
-   public Double doMath(Double number1, Double number2, char operator){
-      switch(operator){
-         case '*': return number1*number2;
-         case '/': return number1/number2;
-         case '-': return number1-number2;
-         case '+': return number1+number2;
-         case ':': return number1/number2;
-         default: return 0.0;
-      }
+   public int downer(){
+      return downer;
    }
 }

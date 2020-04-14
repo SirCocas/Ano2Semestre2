@@ -3,4 +3,4 @@ project(ex C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ex RandomStuff/DMQO.c)
+add_executable(ex Aula5/Ex1.c)

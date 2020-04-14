@@ -25,7 +25,7 @@
 - [x] AC2: ver vídeo aula 15
 - [x] AC2: acabar parte 1 guião 7
 - [ ] AC2: acabar guião 7 (parte 2)
-- [ ] SE: acabar guião prático 2 (pôr coisos todos bonitinhos no pdf)
+- [ ] SE: acabar guião prático 2 (acabei parte 1)
 - [ ] SE: fazer exercícios EAC
 - [ ] SE: fazer exercícios NSS
 - [ ] SE: ler slides Diodo

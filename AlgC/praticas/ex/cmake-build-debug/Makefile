@@ -123,32 +123,32 @@ ex/fast:
 	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/build
 .PHONY : ex/fast
 
-RandomStuff/DMQO.o: RandomStuff/DMQO.c.o
+Aula5/Ex1.o: Aula5/Ex1.c.o
 
-.PHONY : RandomStuff/DMQO.o
+.PHONY : Aula5/Ex1.o
 
 # target to build an object file
-RandomStuff/DMQO.c.o:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQO.c.o
-.PHONY : RandomStuff/DMQO.c.o
+Aula5/Ex1.c.o:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula5/Ex1.c.o
+.PHONY : Aula5/Ex1.c.o
 
-RandomStuff/DMQO.i: RandomStuff/DMQO.c.i
+Aula5/Ex1.i: Aula5/Ex1.c.i
 
-.PHONY : RandomStuff/DMQO.i
+.PHONY : Aula5/Ex1.i
 
 # target to preprocess a source file
-RandomStuff/DMQO.c.i:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQO.c.i
-.PHONY : RandomStuff/DMQO.c.i
+Aula5/Ex1.c.i:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula5/Ex1.c.i
+.PHONY : Aula5/Ex1.c.i
 
-RandomStuff/DMQO.s: RandomStuff/DMQO.c.s
+Aula5/Ex1.s: Aula5/Ex1.c.s
 
-.PHONY : RandomStuff/DMQO.s
+.PHONY : Aula5/Ex1.s
 
 # target to generate assembly for a file
-RandomStuff/DMQO.c.s:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/RandomStuff/DMQO.c.s
-.PHONY : RandomStuff/DMQO.c.s
+Aula5/Ex1.c.s:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/Aula5/Ex1.c.s
+.PHONY : Aula5/Ex1.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex"
 	@echo "... edit_cache"
-	@echo "... RandomStuff/DMQO.o"
-	@echo "... RandomStuff/DMQO.i"
-	@echo "... RandomStuff/DMQO.s"
+	@echo "... Aula5/Ex1.o"
+	@echo "... Aula5/Ex1.i"
+	@echo "... Aula5/Ex1.s"
 .PHONY : help
 
 
