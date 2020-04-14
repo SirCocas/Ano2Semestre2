@@ -1,4 +1,6 @@
 ### AC2:
+- [ ] Ver aula 16
+- [ ] Ver aula 17
 - [ ] Acabar guião 7 (parte 2)
 - [ ] Testar p1ex2.c na placa + osciloscópio (pratica 6)
 - [ ] Testar p1ex3.c na placa + osciloscópio (pratica 6)
