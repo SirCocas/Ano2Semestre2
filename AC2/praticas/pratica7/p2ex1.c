@@ -31,7 +31,7 @@ int main(void){
         while(PORTBbits.RB4!= 0);
 
         //ler core timer - tempo on
-        int time = readCoreTimer();
+        int time = readCoreTimer() / 20000;
 
         //escrever no ecrã com print
         printInt10(time);
