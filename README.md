@@ -3,8 +3,16 @@
 - [x] Ver aula 16
 - [x] Ver aula 17
 - [x] Acabar guião 7
-- [ ] Ver aula 18
-- [ ] Ler bibliografia física
+- [x] Ver aula 18
+- [x] Acabar guião prático 8
+- [ ] Testar p1ex1.c na placa (prática 8) -> tem ex1 e 2 do guião
+- [ ] Testar p1ex3.c na placa (prática 8)
+- [ ] Testar p1ex4.c na placa (prática 8) -> tem ex4 e kinda ex5 do guião
+- [ ] Testar p1ex6.c na placa (prática 8)
+- [ ] Testar p1ex9.c na placa (prática 8)
+- [ ] Testar p2ex1.c na placa (prática 8)
+- [ ] Testar p2ex2.c na placa (prática 8)
+- [ ] Testar p2ex3.c na placa (prática 8)
 - [ ] Testar p1ex2.c na placa + osciloscópio (pratica 6)
 - [ ] Testar p1ex3.c na placa + osciloscópio (pratica 6)
 - [ ] Testar p1ex2.c na placa (prática 7)
@@ -15,6 +23,7 @@
 - [ ] Testar p2ex1.c na placa (prática 7)
 - [ ] Testar p2ex3.c na placa (prática 7)
 - [ ] Testar p2ex4.c na placa (prática 7)
+- [ ] Ler bibliografia física
 - [x] Acabar Guião Prático 1
 - [x] Acabar Guião Prático 4
 
