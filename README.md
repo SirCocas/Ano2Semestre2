@@ -1,8 +1,18 @@
 # AC2
 
-- [ ] Ver aula 16
-- [ ] Ver aula 17
-- [x] Acabar guião 7 
+- [x] Ver aula 16
+- [x] Ver aula 17
+- [x] Acabar guião 7
+- [ ] Ver aula 18
+- [x] Acabar guião prático 8
+- [ ] Testar p1ex1.c na placa (prática 8) -> tem ex1 e 2 do guião
+- [ ] Testar p1ex3.c na placa (prática 8)
+- [ ] Testar p1ex4.c na placa (prática 8) -> tem ex4 e kinda ex5 do guião
+- [ ] Testar p1ex6.c na placa (prática 8)
+- [ ] Testar p1ex9.c na placa (prática 8)
+- [ ] Testar p2ex1.c na placa (prática 8)
+- [ ] Testar p2ex2.c na placa (prática 8)
+- [ ] Testar p2ex3.c na placa (prática 8)
 - [ ] Testar p1ex2.c na placa + osciloscópio (pratica 6)
 - [ ] Testar p1ex3.c na placa + osciloscópio (pratica 6)
 - [ ] Testar p1ex2.c na placa (prática 7)
@@ -20,7 +30,7 @@
 
 ## SE
 
-- [ ] Acabar guião 2 (parte 2)
+- [x] Acabar guião 2 
 - [ ] Fazer exercícios EAC
 - [ ] Fazer exercícios NSS
 - [ ] Fazer exercícios Diodo
@@ -41,4 +51,4 @@
 - [x] Acabar guião 3
 - [x] Acabar guião 4
 - [x] Acabar guião 5
-- [ ] Acabar guião 6
+- [x] Acabar guião 6
