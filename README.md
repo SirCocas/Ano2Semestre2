@@ -1,8 +1,10 @@
 # AC2
 
-- [ ] Ver aula 16
-- [ ] Ver aula 17
-- [x] Acabar guião 7 
+- [x] Ver aula 16
+- [x] Ver aula 17
+- [x] Acabar guião 7
+- [ ] Ver aula 18
+- [ ] Ler bibliografia física
 - [ ] Testar p1ex2.c na placa + osciloscópio (pratica 6)
 - [ ] Testar p1ex3.c na placa + osciloscópio (pratica 6)
 - [ ] Testar p1ex2.c na placa (prática 7)
@@ -14,18 +16,15 @@
 - [ ] Testar p2ex3.c na placa (prática 7)
 - [ ] Testar p2ex4.c na placa (prática 7)
 - [x] Acabar Guião Prático 1
-- [ ] Acabar Guião Prático 2 (Parte 1 ex 4)
-- [ ] Acabar Guião Prático 3 (Parte 2 ex 1)
 - [x] Acabar Guião Prático 4
 
 ## SE
 
-- [ ] Acabar guião 2 (parte 2)
-- [ ] Fazer exercícios EAC
+- [x] Acabar guião 2
+- [ ] Fazer exercícios EAC (fiquei no 13)
 - [ ] Fazer exercícios NSS
 - [ ] Fazer exercícios Diodo
 - [ ] Fazer exercícios MosFet
-- [ ] Acabar guião 1
 
 ### LFA
 
@@ -33,6 +32,8 @@
 - [x] Preparar ANTLR
 - [x] Acabar guião 2
 - [ ] Ler bloco 3
+- [ ] Ler bloco 5
+- [ ] Ler livro do dragão
 
 #### AlgC
 
@@ -41,4 +42,5 @@
 - [x] Acabar guião 3
 - [x] Acabar guião 4
 - [x] Acabar guião 5
-- [ ] Acabar guião 6
+- [x] Acabar guião 6
+- [ ] Ler livro dos apontamentos
