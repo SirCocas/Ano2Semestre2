@@ -57,4 +57,6 @@
 - [x] Acabar guião 4
 - [x] Acabar guião 5
 - [x] Acabar guião 6
+- [x] Acabar guião 7
+- [ ] Acabar guião 8
 - [ ] Ler livro dos apontamentos
