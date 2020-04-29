@@ -5,7 +5,10 @@
 - [x] Acabar guião 7
 - [x] Ver aula 18
 - [x] Acabar guião prático 8
-- [ ] Ver aula 19
+- [x] Ver aula 19
+- [x] Acabar guião prático 9
+- [ ] Testar parte1.c na placa (guião 9)
+- [ ] Testar parte2.c na placa (guião 9)
 - [ ] Testar p1ex1.c na placa (prática 8) -> tem ex1 e 2 do guião
 - [ ] Testar p1ex3.c na placa (prática 8)
 - [ ] Testar p1ex4.c na placa (prática 8) -> tem ex4 e kinda ex5 do guião
@@ -58,5 +61,6 @@
 - [x] Acabar guião 5
 - [x] Acabar guião 6
 - [x] Acabar guião 7
-- [ ] Acabar guião 8
+- [x] Acabar guião 8
+- [ ] Entregar guião 8
 - [ ] Ler livro dos apontamentos
