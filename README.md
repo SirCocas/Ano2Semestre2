@@ -26,11 +26,13 @@
 ## SE
 
 - [x] Acabar guião 2
-- [ ] Fazer exercícios EAC (fiquei no ex 18)
-- [ ] Fazer exercícios NSS
+- [ ] Acabar guião 3 (cheguei à conclusão que R2 = 32.8k e R2 = 123k)
+- [ ] Fazer exercícios EAC (fiquei no ex 18) - GET HELP 
+- [ ] Fazer exercícios NSS (fiquei no 10)
 - [ ] Fazer exercícios Diodo
 - [ ] Fazer exercícios MosFet
 - [ ] Fazer exercícios OpAmps
+- [ ] Fazer exercícios CMOS
 
 ### LFA
 
@@ -42,6 +44,8 @@
 - [ ] Ler bloco 5
 - [ ] Ler bloco 6
 - [ ] Fazer bloco 3 (prático)
+- [ ] Ler bloco 4
+- [ ] Ler bloco 7
 - [ ] Ler livro do dragão
 
 #### AlgC
@@ -54,5 +58,6 @@
 - [x] Acabar guião 6
 - [x] Acabar guião 7
 - [x] Acabar guião 8
-- [ ] Entregar guião 8
+- [x] Entregar guião 8
+- [ ] Entregar guião 9 (mas primeiro convém rever se aquilo está a fazer tudo bem)
 - [ ] Ler livro dos apontamentos
