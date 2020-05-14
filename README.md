@@ -7,6 +7,8 @@
 - [x] Acabar guião prático 8
 - [x] Ver aula 19
 - [x] Acabar guião prático 9
+- [x] Ver video-aula 20&21
+- [ ] Refazer guiões práticos de trás para a frente mas desta vez para a placa de teste
 - [ ] Testar parte1.c na placa (guião 9)
 - [ ] Testar parte2.c na placa (guião 9)
 - [ ] Testar p1ex1.c na placa (prática 8) -> tem ex1 e 2 do guião
