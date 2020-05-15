@@ -12,10 +12,10 @@ public class calcMain {
             lineText = sc.nextLine();
          calcParser parser = new calcParser(null);
          // replace error listener:
-         //parser.removeErrorListeners(); // remove ConsoleErrorListener
-         //parser.addErrorListener(new ErrorHandlingListener());
+         // parser.removeErrorListeners(); // remove ConsoleErrorListener
+         // parser.addErrorListener(new ErrorHandlingListener());
          Execute visitor0 = new Execute();
-         while(lineText != null) {
+         while (lineText != null) {
             // create a CharStream that reads from standard input:
             CharStream input = CharStreams.fromString(lineText + "\n");
             // create a lexer that feeds off of input CharStream:
@@ -39,8 +39,7 @@ public class calcMain {
                lineText = null;
             numLine++;
          }
-      }
-      catch(RecognitionException e) {
+      } catch (RecognitionException e) {
          e.printStackTrace();
          System.exit(1);
       }

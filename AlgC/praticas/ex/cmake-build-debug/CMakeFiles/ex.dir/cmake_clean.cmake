@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ex.dir/Aula5/Ex1.c.o"
+  "CMakeFiles/ex.dir/20200423_TADs_Exemplos/05_LIST/PointersList.c.o"
   "ex.exe"
   "ex.pdb"
   "libex.dll.a"

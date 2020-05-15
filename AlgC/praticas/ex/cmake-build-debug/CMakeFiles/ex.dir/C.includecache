@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/Aula5/Ex1.c
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/20200423_TADs_Exemplos/05_LIST/PointersList.c
+PointersList.h
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/20200423_TADs_Exemplos/05_LIST/PointersList.h
+assert.h
+-
+stdlib.h
+-
 stdio.h
 -
+
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/ex/20200423_TADs_Exemplos/05_LIST/PointersList.h
 

@@ -28,8 +28,8 @@
 ## SE
 
 - [x] Acabar guião 2
-- [ ] Acabar guião 3 (cheguei à conclusão que R2 = 32.8k e R2 = 123k)
-- [ ] Fazer exercícios EAC (fiquei no ex 18) - GET HELP 
+- [x] Acabar guião 3
+- [ ] Fazer exercícios EAC (fiquei no ex 18) - GET HELP
 - [ ] Fazer exercícios NSS (fiquei no 10)
 - [ ] Fazer exercícios Diodo
 - [ ] Fazer exercícios MosFet
@@ -61,5 +61,5 @@
 - [x] Acabar guião 7
 - [x] Acabar guião 8
 - [x] Entregar guião 8
-- [ ] Entregar guião 9 (mas primeiro convém rever se aquilo está a fazer tudo bem)
+- [x] Entregar guião 9
 - [ ] Ler livro dos apontamentos
