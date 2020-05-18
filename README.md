@@ -26,7 +26,6 @@
 - [x] Acabar Guião Prático 4
 
 ## SE
-
 - [x] Acabar guião 2
 - [x] Acabar guião 3
 - [ ] Fazer exercícios EAC (fiquei no ex 18) - GET HELP
@@ -63,3 +62,4 @@
 - [x] Entregar guião 8
 - [x] Entregar guião 9
 - [ ] Ler livro dos apontamentos
+- [ ] Ler bibliografia física
