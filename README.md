@@ -8,6 +8,7 @@
 - [x] Ver aula 19
 - [x] Acabar guião prático 9
 - [x] Ver video-aula 20&21
+- [ ] Fazer exercícios teóricos
 - [ ] Refazer guiões práticos de trás para a frente mas desta vez para a placa de teste
 - [ ] Testar parte1.c na placa (guião 9)
 - [ ] Testar parte2.c na placa (guião 9)
@@ -26,6 +27,7 @@
 - [x] Acabar Guião Prático 4
 
 ## SE
+
 - [x] Acabar guião 2
 - [x] Acabar guião 3
 - [ ] Fazer exercícios EAC (fiquei no ex 18) - GET HELP
