@@ -9,7 +9,7 @@
 - [x] Acabar guião prático 9
 - [x] Ver video-aula 20&21
 - [ ] Fazer exercícios teóricos
-- [ ] Refazer guiões práticos de trás para a frente mas desta vez para a placa de teste
+- [ ] Refazer guiões práticos e problemas extra de trás para a frente mas desta vez para a placa de teste
 - [ ] Testar parte1.c na placa (guião 9)
 - [ ] Testar parte2.c na placa (guião 9)
 - [ ] Testar p1ex1.c na placa (prática 8) -> tem ex1 e 2 do guião
@@ -31,8 +31,8 @@
 - [x] Acabar guião 2
 - [x] Acabar guião 3
 - [ ] Fazer exercícios EAC (fiquei no ex 18) - GET HELP
-- [ ] Fazer exercícios NSS (fiquei no 10)
-- [ ] Fazer exercícios Diodo
+- [ ] Fazer exercícios NSS (fiquei no 10) - GET HELP
+- [ ] Fazer exercícios Diodo (fiquei no 5)
 - [ ] Fazer exercícios MosFet
 - [ ] Fazer exercícios OpAmps
 - [ ] Fazer exercícios CMOS
