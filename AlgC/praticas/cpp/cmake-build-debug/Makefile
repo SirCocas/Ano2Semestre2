@@ -123,194 +123,194 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-aula8/TAD2/TimeInterval.o: aula8/TAD2/TimeInterval.cpp.o
+aula10/TAD4/BSTree.o: aula10/TAD4/BSTree.cpp.o
 
-.PHONY : aula8/TAD2/TimeInterval.o
-
-# target to build an object file
-aula8/TAD2/TimeInterval.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/TimeInterval.cpp.o
-.PHONY : aula8/TAD2/TimeInterval.cpp.o
-
-aula8/TAD2/TimeInterval.i: aula8/TAD2/TimeInterval.cpp.i
-
-.PHONY : aula8/TAD2/TimeInterval.i
-
-# target to preprocess a source file
-aula8/TAD2/TimeInterval.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/TimeInterval.cpp.i
-.PHONY : aula8/TAD2/TimeInterval.cpp.i
-
-aula8/TAD2/TimeInterval.s: aula8/TAD2/TimeInterval.cpp.s
-
-.PHONY : aula8/TAD2/TimeInterval.s
-
-# target to generate assembly for a file
-aula8/TAD2/TimeInterval.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/TimeInterval.cpp.s
-.PHONY : aula8/TAD2/TimeInterval.cpp.s
-
-aula9/TAD3/Date.o: aula9/TAD3/Date.cpp.o
-
-.PHONY : aula9/TAD3/Date.o
+.PHONY : aula10/TAD4/BSTree.o
 
 # target to build an object file
-aula9/TAD3/Date.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/Date.cpp.o
-.PHONY : aula9/TAD3/Date.cpp.o
+aula10/TAD4/BSTree.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.o
+.PHONY : aula10/TAD4/BSTree.cpp.o
 
-aula9/TAD3/Date.i: aula9/TAD3/Date.cpp.i
+aula10/TAD4/BSTree.i: aula10/TAD4/BSTree.cpp.i
 
-.PHONY : aula9/TAD3/Date.i
+.PHONY : aula10/TAD4/BSTree.i
 
 # target to preprocess a source file
-aula9/TAD3/Date.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/Date.cpp.i
-.PHONY : aula9/TAD3/Date.cpp.i
+aula10/TAD4/BSTree.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.i
+.PHONY : aula10/TAD4/BSTree.cpp.i
 
-aula9/TAD3/Date.s: aula9/TAD3/Date.cpp.s
+aula10/TAD4/BSTree.s: aula10/TAD4/BSTree.cpp.s
 
-.PHONY : aula9/TAD3/Date.s
+.PHONY : aula10/TAD4/BSTree.s
 
 # target to generate assembly for a file
-aula9/TAD3/Date.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/Date.cpp.s
-.PHONY : aula9/TAD3/Date.cpp.s
+aula10/TAD4/BSTree.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.s
+.PHONY : aula10/TAD4/BSTree.cpp.s
 
-aula9/TAD3/DateTime.o: aula9/TAD3/DateTime.cpp.o
+aula10/TAD4/SchedulingSequence.o: aula10/TAD4/SchedulingSequence.cpp.o
 
-.PHONY : aula9/TAD3/DateTime.o
+.PHONY : aula10/TAD4/SchedulingSequence.o
 
 # target to build an object file
-aula9/TAD3/DateTime.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/DateTime.cpp.o
-.PHONY : aula9/TAD3/DateTime.cpp.o
+aula10/TAD4/SchedulingSequence.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.o
+.PHONY : aula10/TAD4/SchedulingSequence.cpp.o
 
-aula9/TAD3/DateTime.i: aula9/TAD3/DateTime.cpp.i
+aula10/TAD4/SchedulingSequence.i: aula10/TAD4/SchedulingSequence.cpp.i
 
-.PHONY : aula9/TAD3/DateTime.i
+.PHONY : aula10/TAD4/SchedulingSequence.i
 
 # target to preprocess a source file
-aula9/TAD3/DateTime.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/DateTime.cpp.i
-.PHONY : aula9/TAD3/DateTime.cpp.i
+aula10/TAD4/SchedulingSequence.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.i
+.PHONY : aula10/TAD4/SchedulingSequence.cpp.i
 
-aula9/TAD3/DateTime.s: aula9/TAD3/DateTime.cpp.s
+aula10/TAD4/SchedulingSequence.s: aula10/TAD4/SchedulingSequence.cpp.s
 
-.PHONY : aula9/TAD3/DateTime.s
+.PHONY : aula10/TAD4/SchedulingSequence.s
 
 # target to generate assembly for a file
-aula9/TAD3/DateTime.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/DateTime.cpp.s
-.PHONY : aula9/TAD3/DateTime.cpp.s
+aula10/TAD4/SchedulingSequence.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.s
+.PHONY : aula10/TAD4/SchedulingSequence.cpp.s
 
-aula9/TAD3/SchedulingSequence.o: aula9/TAD3/SchedulingSequence.cpp.o
+aula10/TAD4/TAD4Test.o: aula10/TAD4/TAD4Test.cpp.o
 
-.PHONY : aula9/TAD3/SchedulingSequence.o
+.PHONY : aula10/TAD4/TAD4Test.o
 
 # target to build an object file
-aula9/TAD3/SchedulingSequence.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/SchedulingSequence.cpp.o
-.PHONY : aula9/TAD3/SchedulingSequence.cpp.o
+aula10/TAD4/TAD4Test.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.o
+.PHONY : aula10/TAD4/TAD4Test.cpp.o
 
-aula9/TAD3/SchedulingSequence.i: aula9/TAD3/SchedulingSequence.cpp.i
+aula10/TAD4/TAD4Test.i: aula10/TAD4/TAD4Test.cpp.i
 
-.PHONY : aula9/TAD3/SchedulingSequence.i
+.PHONY : aula10/TAD4/TAD4Test.i
 
 # target to preprocess a source file
-aula9/TAD3/SchedulingSequence.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/SchedulingSequence.cpp.i
-.PHONY : aula9/TAD3/SchedulingSequence.cpp.i
+aula10/TAD4/TAD4Test.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.i
+.PHONY : aula10/TAD4/TAD4Test.cpp.i
 
-aula9/TAD3/SchedulingSequence.s: aula9/TAD3/SchedulingSequence.cpp.s
+aula10/TAD4/TAD4Test.s: aula10/TAD4/TAD4Test.cpp.s
 
-.PHONY : aula9/TAD3/SchedulingSequence.s
+.PHONY : aula10/TAD4/TAD4Test.s
 
 # target to generate assembly for a file
-aula9/TAD3/SchedulingSequence.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/SchedulingSequence.cpp.s
-.PHONY : aula9/TAD3/SchedulingSequence.cpp.s
+aula10/TAD4/TAD4Test.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.s
+.PHONY : aula10/TAD4/TAD4Test.cpp.s
 
-aula9/TAD3/SortedList.o: aula9/TAD3/SortedList.cpp.o
+aula10/TAD4/TimeInterval.o: aula10/TAD4/TimeInterval.cpp.o
 
-.PHONY : aula9/TAD3/SortedList.o
+.PHONY : aula10/TAD4/TimeInterval.o
 
 # target to build an object file
-aula9/TAD3/SortedList.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/SortedList.cpp.o
-.PHONY : aula9/TAD3/SortedList.cpp.o
+aula10/TAD4/TimeInterval.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.o
+.PHONY : aula10/TAD4/TimeInterval.cpp.o
 
-aula9/TAD3/SortedList.i: aula9/TAD3/SortedList.cpp.i
+aula10/TAD4/TimeInterval.i: aula10/TAD4/TimeInterval.cpp.i
 
-.PHONY : aula9/TAD3/SortedList.i
+.PHONY : aula10/TAD4/TimeInterval.i
 
 # target to preprocess a source file
-aula9/TAD3/SortedList.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/SortedList.cpp.i
-.PHONY : aula9/TAD3/SortedList.cpp.i
+aula10/TAD4/TimeInterval.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.i
+.PHONY : aula10/TAD4/TimeInterval.cpp.i
 
-aula9/TAD3/SortedList.s: aula9/TAD3/SortedList.cpp.s
+aula10/TAD4/TimeInterval.s: aula10/TAD4/TimeInterval.cpp.s
 
-.PHONY : aula9/TAD3/SortedList.s
+.PHONY : aula10/TAD4/TimeInterval.s
 
 # target to generate assembly for a file
-aula9/TAD3/SortedList.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/SortedList.cpp.s
-.PHONY : aula9/TAD3/SortedList.cpp.s
+aula10/TAD4/TimeInterval.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.s
+.PHONY : aula10/TAD4/TimeInterval.cpp.s
 
-aula9/TAD3/TAD3Test.o: aula9/TAD3/TAD3Test.cpp.o
+aula8/TAD2/Date.o: aula8/TAD2/Date.cpp.o
 
-.PHONY : aula9/TAD3/TAD3Test.o
+.PHONY : aula8/TAD2/Date.o
 
 # target to build an object file
-aula9/TAD3/TAD3Test.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/TAD3Test.cpp.o
-.PHONY : aula9/TAD3/TAD3Test.cpp.o
+aula8/TAD2/Date.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.o
+.PHONY : aula8/TAD2/Date.cpp.o
 
-aula9/TAD3/TAD3Test.i: aula9/TAD3/TAD3Test.cpp.i
+aula8/TAD2/Date.i: aula8/TAD2/Date.cpp.i
 
-.PHONY : aula9/TAD3/TAD3Test.i
+.PHONY : aula8/TAD2/Date.i
 
 # target to preprocess a source file
-aula9/TAD3/TAD3Test.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/TAD3Test.cpp.i
-.PHONY : aula9/TAD3/TAD3Test.cpp.i
+aula8/TAD2/Date.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.i
+.PHONY : aula8/TAD2/Date.cpp.i
 
-aula9/TAD3/TAD3Test.s: aula9/TAD3/TAD3Test.cpp.s
+aula8/TAD2/Date.s: aula8/TAD2/Date.cpp.s
 
-.PHONY : aula9/TAD3/TAD3Test.s
+.PHONY : aula8/TAD2/Date.s
 
 # target to generate assembly for a file
-aula9/TAD3/TAD3Test.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/TAD3Test.cpp.s
-.PHONY : aula9/TAD3/TAD3Test.cpp.s
+aula8/TAD2/Date.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.s
+.PHONY : aula8/TAD2/Date.cpp.s
 
-aula9/TAD3/Time.o: aula9/TAD3/Time.cpp.o
+aula8/TAD2/DateTime.o: aula8/TAD2/DateTime.cpp.o
 
-.PHONY : aula9/TAD3/Time.o
+.PHONY : aula8/TAD2/DateTime.o
 
 # target to build an object file
-aula9/TAD3/Time.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/Time.cpp.o
-.PHONY : aula9/TAD3/Time.cpp.o
+aula8/TAD2/DateTime.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.o
+.PHONY : aula8/TAD2/DateTime.cpp.o
 
-aula9/TAD3/Time.i: aula9/TAD3/Time.cpp.i
+aula8/TAD2/DateTime.i: aula8/TAD2/DateTime.cpp.i
 
-.PHONY : aula9/TAD3/Time.i
+.PHONY : aula8/TAD2/DateTime.i
 
 # target to preprocess a source file
-aula9/TAD3/Time.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/Time.cpp.i
-.PHONY : aula9/TAD3/Time.cpp.i
+aula8/TAD2/DateTime.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.i
+.PHONY : aula8/TAD2/DateTime.cpp.i
 
-aula9/TAD3/Time.s: aula9/TAD3/Time.cpp.s
+aula8/TAD2/DateTime.s: aula8/TAD2/DateTime.cpp.s
 
-.PHONY : aula9/TAD3/Time.s
+.PHONY : aula8/TAD2/DateTime.s
 
 # target to generate assembly for a file
-aula9/TAD3/Time.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula9/TAD3/Time.cpp.s
-.PHONY : aula9/TAD3/Time.cpp.s
+aula8/TAD2/DateTime.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.s
+.PHONY : aula8/TAD2/DateTime.cpp.s
+
+aula8/TAD2/Time.o: aula8/TAD2/Time.cpp.o
+
+.PHONY : aula8/TAD2/Time.o
+
+# target to build an object file
+aula8/TAD2/Time.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.o
+.PHONY : aula8/TAD2/Time.cpp.o
+
+aula8/TAD2/Time.i: aula8/TAD2/Time.cpp.i
+
+.PHONY : aula8/TAD2/Time.i
+
+# target to preprocess a source file
+aula8/TAD2/Time.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.i
+.PHONY : aula8/TAD2/Time.cpp.i
+
+aula8/TAD2/Time.s: aula8/TAD2/Time.cpp.s
+
+.PHONY : aula8/TAD2/Time.s
+
+# target to generate assembly for a file
+aula8/TAD2/Time.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.s
+.PHONY : aula8/TAD2/Time.cpp.s
 
 # Help Target
 help:
@@ -321,27 +321,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp"
 	@echo "... edit_cache"
-	@echo "... aula8/TAD2/TimeInterval.o"
-	@echo "... aula8/TAD2/TimeInterval.i"
-	@echo "... aula8/TAD2/TimeInterval.s"
-	@echo "... aula9/TAD3/Date.o"
-	@echo "... aula9/TAD3/Date.i"
-	@echo "... aula9/TAD3/Date.s"
-	@echo "... aula9/TAD3/DateTime.o"
-	@echo "... aula9/TAD3/DateTime.i"
-	@echo "... aula9/TAD3/DateTime.s"
-	@echo "... aula9/TAD3/SchedulingSequence.o"
-	@echo "... aula9/TAD3/SchedulingSequence.i"
-	@echo "... aula9/TAD3/SchedulingSequence.s"
-	@echo "... aula9/TAD3/SortedList.o"
-	@echo "... aula9/TAD3/SortedList.i"
-	@echo "... aula9/TAD3/SortedList.s"
-	@echo "... aula9/TAD3/TAD3Test.o"
-	@echo "... aula9/TAD3/TAD3Test.i"
-	@echo "... aula9/TAD3/TAD3Test.s"
-	@echo "... aula9/TAD3/Time.o"
-	@echo "... aula9/TAD3/Time.i"
-	@echo "... aula9/TAD3/Time.s"
+	@echo "... aula10/TAD4/BSTree.o"
+	@echo "... aula10/TAD4/BSTree.i"
+	@echo "... aula10/TAD4/BSTree.s"
+	@echo "... aula10/TAD4/SchedulingSequence.o"
+	@echo "... aula10/TAD4/SchedulingSequence.i"
+	@echo "... aula10/TAD4/SchedulingSequence.s"
+	@echo "... aula10/TAD4/TAD4Test.o"
+	@echo "... aula10/TAD4/TAD4Test.i"
+	@echo "... aula10/TAD4/TAD4Test.s"
+	@echo "... aula10/TAD4/TimeInterval.o"
+	@echo "... aula10/TAD4/TimeInterval.i"
+	@echo "... aula10/TAD4/TimeInterval.s"
+	@echo "... aula8/TAD2/Date.o"
+	@echo "... aula8/TAD2/Date.i"
+	@echo "... aula8/TAD2/Date.s"
+	@echo "... aula8/TAD2/DateTime.o"
+	@echo "... aula8/TAD2/DateTime.i"
+	@echo "... aula8/TAD2/DateTime.s"
+	@echo "... aula8/TAD2/Time.o"
+	@echo "... aula8/TAD2/Time.i"
+	@echo "... aula8/TAD2/Time.s"
 .PHONY : help
 
 

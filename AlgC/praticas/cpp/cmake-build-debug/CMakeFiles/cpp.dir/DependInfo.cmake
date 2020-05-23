@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/TimeInterval.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula8/TAD2/TimeInterval.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula9/TAD3/Date.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula9/TAD3/Date.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula9/TAD3/DateTime.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula9/TAD3/DateTime.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula9/TAD3/SchedulingSequence.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula9/TAD3/SchedulingSequence.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula9/TAD3/SortedList.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula9/TAD3/SortedList.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula9/TAD3/TAD3Test.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula9/TAD3/TAD3Test.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula9/TAD3/Time.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula9/TAD3/Time.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/BSTree.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/SchedulingSequence.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TAD4Test.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TimeInterval.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Date.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/DateTime.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Time.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
