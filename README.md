@@ -32,8 +32,8 @@
 - [x] Acabar guião 3
 - [ ] Fazer exercícios EAC (fiquei no ex 18) - GET HELP
 - [ ] Fazer exercícios NSS (fiquei no 10) - GET HELP
-- [ ] Fazer exercícios Diodo (fiquei no 5)
-- [ ] Fazer exercícios MosFet
+- [ ] Fazer exercícios Diodo (fiquei no 6) - GET HELP
+- [ ] Fazer exercícios MosFet (fiquei no 2)
 - [ ] Fazer exercícios OpAmps
 - [ ] Fazer exercícios CMOS
 - [ ] Fazer exercícios DAC-ADC
@@ -68,5 +68,5 @@
 - [x] Acabar guião 8
 - [x] Entregar guião 8
 - [x] Entregar guião 9
-- [ ] Ler livro dos apontamentos
+- [x] Ler livro dos apontamentos
 - [ ] Ler bibliografia física
