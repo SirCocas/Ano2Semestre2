@@ -80,43 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/BSTree.cpp">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileMerge.cpp">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/BSTree.h">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.cpp">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/SchedulingSequence.cpp">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.h">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/SchedulingSequence.h">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.cpp">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TAD4Test.cpp">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.h">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TimeInterval.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TimeInterval.h">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Date.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Date.h">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/DateTime.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/DateTime.h">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Time.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Time.h">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeapTest.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/CMakeLists.txt">

@@ -57,120 +57,75 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
-CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.o: ../aula8/TAD2/DateTime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/DateTime.cpp
+CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o: ../aula11/FileMerge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileMerge.cpp
 
-CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/DateTime.cpp > CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.i
+CMakeFiles/cpp.dir/aula11/FileMerge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula11/FileMerge.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileMerge.cpp > CMakeFiles/cpp.dir/aula11/FileMerge.cpp.i
 
-CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/DateTime.cpp -o CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.s
+CMakeFiles/cpp.dir/aula11/FileMerge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula11/FileMerge.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileMerge.cpp -o CMakeFiles/cpp.dir/aula11/FileMerge.cpp.s
 
-CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.o: ../aula8/TAD2/Date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Date.cpp
+CMakeFiles/cpp.dir/aula11/FileReader.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula11/FileReader.cpp.o: ../aula11/FileReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/aula11/FileReader.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula11/FileReader.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.cpp
 
-CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Date.cpp > CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.i
+CMakeFiles/cpp.dir/aula11/FileReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula11/FileReader.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.cpp > CMakeFiles/cpp.dir/aula11/FileReader.cpp.i
 
-CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Date.cpp -o CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.s
+CMakeFiles/cpp.dir/aula11/FileReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula11/FileReader.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.cpp -o CMakeFiles/cpp.dir/aula11/FileReader.cpp.s
 
-CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.o: ../aula8/TAD2/Time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Time.cpp
+CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o: ../aula11/MinHeap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.cpp
 
-CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Time.cpp > CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.i
+CMakeFiles/cpp.dir/aula11/MinHeap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula11/MinHeap.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.cpp > CMakeFiles/cpp.dir/aula11/MinHeap.cpp.i
 
-CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Time.cpp -o CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.s
+CMakeFiles/cpp.dir/aula11/MinHeap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula11/MinHeap.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.cpp -o CMakeFiles/cpp.dir/aula11/MinHeap.cpp.s
 
-CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.o: ../aula10/TAD4/TimeInterval.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TimeInterval.cpp
+CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.o: ../aula11/MinHeapTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeapTest.cpp
 
-CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TimeInterval.cpp > CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.i
+CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeapTest.cpp > CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.i
 
-CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TimeInterval.cpp -o CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.s
-
-CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.o: ../aula10/TAD4/SchedulingSequence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/SchedulingSequence.cpp
-
-CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/SchedulingSequence.cpp > CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.i
-
-CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/SchedulingSequence.cpp -o CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.s
-
-CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.o: ../aula10/TAD4/TAD4Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TAD4Test.cpp
-
-CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TAD4Test.cpp > CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.i
-
-CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TAD4Test.cpp -o CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.s
-
-CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.o: ../aula10/TAD4/BSTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/BSTree.cpp
-
-CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/BSTree.cpp > CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.i
-
-CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/BSTree.cpp -o CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.s
+CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeapTest.cpp -o CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.o" \
-"CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.o" \
-"CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.o" \
-"CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.o" \
-"CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.o" \
-"CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.o" \
-"CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.o"
+"CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o" \
+"CMakeFiles/cpp.dir/aula11/FileReader.cpp.o" \
+"CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o" \
+"CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
-cpp.exe: CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.o
-cpp.exe: CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.o
-cpp.exe: CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.o
-cpp.exe: CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.o
-cpp.exe: CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.o
-cpp.exe: CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.o
-cpp.exe: CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.o
+cpp.exe: CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o
+cpp.exe: CMakeFiles/cpp.dir/aula11/FileReader.cpp.o
+cpp.exe: CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o
+cpp.exe: CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.o
 cpp.exe: CMakeFiles/cpp.dir/build.make
 cpp.exe: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cpp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cpp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

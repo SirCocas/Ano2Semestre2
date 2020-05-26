@@ -4,13 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/BSTree.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/SchedulingSequence.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TAD4Test.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula10/TAD4/TimeInterval.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Date.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/DateTime.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.o"
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula8/TAD2/Time.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileMerge.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula11/FileReader.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeapTest.cpp" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

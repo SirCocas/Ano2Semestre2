@@ -36,6 +36,11 @@
 - [ ] Fazer exercícios MosFet
 - [ ] Fazer exercícios OpAmps
 - [ ] Fazer exercícios CMOS
+- [ ] Fazer exercícios DAC-ADC
+- [ ] Fazer teste teórico 2 18-19
+- [ ] Fazer teste teórico 2 17-18
+- [ ] Fazer teste teórico 1 17-18
+- [ ] Fazer teste teórico 1 18-19
 
 ### LFA
 

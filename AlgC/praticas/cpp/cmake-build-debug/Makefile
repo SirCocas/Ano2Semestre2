@@ -123,194 +123,113 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-aula10/TAD4/BSTree.o: aula10/TAD4/BSTree.cpp.o
+aula11/FileMerge.o: aula11/FileMerge.cpp.o
 
-.PHONY : aula10/TAD4/BSTree.o
-
-# target to build an object file
-aula10/TAD4/BSTree.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.o
-.PHONY : aula10/TAD4/BSTree.cpp.o
-
-aula10/TAD4/BSTree.i: aula10/TAD4/BSTree.cpp.i
-
-.PHONY : aula10/TAD4/BSTree.i
-
-# target to preprocess a source file
-aula10/TAD4/BSTree.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.i
-.PHONY : aula10/TAD4/BSTree.cpp.i
-
-aula10/TAD4/BSTree.s: aula10/TAD4/BSTree.cpp.s
-
-.PHONY : aula10/TAD4/BSTree.s
-
-# target to generate assembly for a file
-aula10/TAD4/BSTree.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/BSTree.cpp.s
-.PHONY : aula10/TAD4/BSTree.cpp.s
-
-aula10/TAD4/SchedulingSequence.o: aula10/TAD4/SchedulingSequence.cpp.o
-
-.PHONY : aula10/TAD4/SchedulingSequence.o
+.PHONY : aula11/FileMerge.o
 
 # target to build an object file
-aula10/TAD4/SchedulingSequence.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.o
-.PHONY : aula10/TAD4/SchedulingSequence.cpp.o
+aula11/FileMerge.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o
+.PHONY : aula11/FileMerge.cpp.o
 
-aula10/TAD4/SchedulingSequence.i: aula10/TAD4/SchedulingSequence.cpp.i
+aula11/FileMerge.i: aula11/FileMerge.cpp.i
 
-.PHONY : aula10/TAD4/SchedulingSequence.i
+.PHONY : aula11/FileMerge.i
 
 # target to preprocess a source file
-aula10/TAD4/SchedulingSequence.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.i
-.PHONY : aula10/TAD4/SchedulingSequence.cpp.i
+aula11/FileMerge.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileMerge.cpp.i
+.PHONY : aula11/FileMerge.cpp.i
 
-aula10/TAD4/SchedulingSequence.s: aula10/TAD4/SchedulingSequence.cpp.s
+aula11/FileMerge.s: aula11/FileMerge.cpp.s
 
-.PHONY : aula10/TAD4/SchedulingSequence.s
+.PHONY : aula11/FileMerge.s
 
 # target to generate assembly for a file
-aula10/TAD4/SchedulingSequence.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/SchedulingSequence.cpp.s
-.PHONY : aula10/TAD4/SchedulingSequence.cpp.s
+aula11/FileMerge.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileMerge.cpp.s
+.PHONY : aula11/FileMerge.cpp.s
 
-aula10/TAD4/TAD4Test.o: aula10/TAD4/TAD4Test.cpp.o
+aula11/FileReader.o: aula11/FileReader.cpp.o
 
-.PHONY : aula10/TAD4/TAD4Test.o
+.PHONY : aula11/FileReader.o
 
 # target to build an object file
-aula10/TAD4/TAD4Test.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.o
-.PHONY : aula10/TAD4/TAD4Test.cpp.o
+aula11/FileReader.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileReader.cpp.o
+.PHONY : aula11/FileReader.cpp.o
 
-aula10/TAD4/TAD4Test.i: aula10/TAD4/TAD4Test.cpp.i
+aula11/FileReader.i: aula11/FileReader.cpp.i
 
-.PHONY : aula10/TAD4/TAD4Test.i
+.PHONY : aula11/FileReader.i
 
 # target to preprocess a source file
-aula10/TAD4/TAD4Test.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.i
-.PHONY : aula10/TAD4/TAD4Test.cpp.i
+aula11/FileReader.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileReader.cpp.i
+.PHONY : aula11/FileReader.cpp.i
 
-aula10/TAD4/TAD4Test.s: aula10/TAD4/TAD4Test.cpp.s
+aula11/FileReader.s: aula11/FileReader.cpp.s
 
-.PHONY : aula10/TAD4/TAD4Test.s
+.PHONY : aula11/FileReader.s
 
 # target to generate assembly for a file
-aula10/TAD4/TAD4Test.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TAD4Test.cpp.s
-.PHONY : aula10/TAD4/TAD4Test.cpp.s
+aula11/FileReader.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileReader.cpp.s
+.PHONY : aula11/FileReader.cpp.s
 
-aula10/TAD4/TimeInterval.o: aula10/TAD4/TimeInterval.cpp.o
+aula11/MinHeap.o: aula11/MinHeap.cpp.o
 
-.PHONY : aula10/TAD4/TimeInterval.o
+.PHONY : aula11/MinHeap.o
 
 # target to build an object file
-aula10/TAD4/TimeInterval.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.o
-.PHONY : aula10/TAD4/TimeInterval.cpp.o
+aula11/MinHeap.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o
+.PHONY : aula11/MinHeap.cpp.o
 
-aula10/TAD4/TimeInterval.i: aula10/TAD4/TimeInterval.cpp.i
+aula11/MinHeap.i: aula11/MinHeap.cpp.i
 
-.PHONY : aula10/TAD4/TimeInterval.i
+.PHONY : aula11/MinHeap.i
 
 # target to preprocess a source file
-aula10/TAD4/TimeInterval.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.i
-.PHONY : aula10/TAD4/TimeInterval.cpp.i
+aula11/MinHeap.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeap.cpp.i
+.PHONY : aula11/MinHeap.cpp.i
 
-aula10/TAD4/TimeInterval.s: aula10/TAD4/TimeInterval.cpp.s
+aula11/MinHeap.s: aula11/MinHeap.cpp.s
 
-.PHONY : aula10/TAD4/TimeInterval.s
+.PHONY : aula11/MinHeap.s
 
 # target to generate assembly for a file
-aula10/TAD4/TimeInterval.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula10/TAD4/TimeInterval.cpp.s
-.PHONY : aula10/TAD4/TimeInterval.cpp.s
+aula11/MinHeap.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeap.cpp.s
+.PHONY : aula11/MinHeap.cpp.s
 
-aula8/TAD2/Date.o: aula8/TAD2/Date.cpp.o
+aula11/MinHeapTest.o: aula11/MinHeapTest.cpp.o
 
-.PHONY : aula8/TAD2/Date.o
+.PHONY : aula11/MinHeapTest.o
 
 # target to build an object file
-aula8/TAD2/Date.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.o
-.PHONY : aula8/TAD2/Date.cpp.o
+aula11/MinHeapTest.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.o
+.PHONY : aula11/MinHeapTest.cpp.o
 
-aula8/TAD2/Date.i: aula8/TAD2/Date.cpp.i
+aula11/MinHeapTest.i: aula11/MinHeapTest.cpp.i
 
-.PHONY : aula8/TAD2/Date.i
-
-# target to preprocess a source file
-aula8/TAD2/Date.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.i
-.PHONY : aula8/TAD2/Date.cpp.i
-
-aula8/TAD2/Date.s: aula8/TAD2/Date.cpp.s
-
-.PHONY : aula8/TAD2/Date.s
-
-# target to generate assembly for a file
-aula8/TAD2/Date.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Date.cpp.s
-.PHONY : aula8/TAD2/Date.cpp.s
-
-aula8/TAD2/DateTime.o: aula8/TAD2/DateTime.cpp.o
-
-.PHONY : aula8/TAD2/DateTime.o
-
-# target to build an object file
-aula8/TAD2/DateTime.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.o
-.PHONY : aula8/TAD2/DateTime.cpp.o
-
-aula8/TAD2/DateTime.i: aula8/TAD2/DateTime.cpp.i
-
-.PHONY : aula8/TAD2/DateTime.i
+.PHONY : aula11/MinHeapTest.i
 
 # target to preprocess a source file
-aula8/TAD2/DateTime.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.i
-.PHONY : aula8/TAD2/DateTime.cpp.i
+aula11/MinHeapTest.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.i
+.PHONY : aula11/MinHeapTest.cpp.i
 
-aula8/TAD2/DateTime.s: aula8/TAD2/DateTime.cpp.s
+aula11/MinHeapTest.s: aula11/MinHeapTest.cpp.s
 
-.PHONY : aula8/TAD2/DateTime.s
-
-# target to generate assembly for a file
-aula8/TAD2/DateTime.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/DateTime.cpp.s
-.PHONY : aula8/TAD2/DateTime.cpp.s
-
-aula8/TAD2/Time.o: aula8/TAD2/Time.cpp.o
-
-.PHONY : aula8/TAD2/Time.o
-
-# target to build an object file
-aula8/TAD2/Time.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.o
-.PHONY : aula8/TAD2/Time.cpp.o
-
-aula8/TAD2/Time.i: aula8/TAD2/Time.cpp.i
-
-.PHONY : aula8/TAD2/Time.i
-
-# target to preprocess a source file
-aula8/TAD2/Time.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.i
-.PHONY : aula8/TAD2/Time.cpp.i
-
-aula8/TAD2/Time.s: aula8/TAD2/Time.cpp.s
-
-.PHONY : aula8/TAD2/Time.s
+.PHONY : aula11/MinHeapTest.s
 
 # target to generate assembly for a file
-aula8/TAD2/Time.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula8/TAD2/Time.cpp.s
-.PHONY : aula8/TAD2/Time.cpp.s
+aula11/MinHeapTest.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.s
+.PHONY : aula11/MinHeapTest.cpp.s
 
 # Help Target
 help:
@@ -321,27 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp"
 	@echo "... edit_cache"
-	@echo "... aula10/TAD4/BSTree.o"
-	@echo "... aula10/TAD4/BSTree.i"
-	@echo "... aula10/TAD4/BSTree.s"
-	@echo "... aula10/TAD4/SchedulingSequence.o"
-	@echo "... aula10/TAD4/SchedulingSequence.i"
-	@echo "... aula10/TAD4/SchedulingSequence.s"
-	@echo "... aula10/TAD4/TAD4Test.o"
-	@echo "... aula10/TAD4/TAD4Test.i"
-	@echo "... aula10/TAD4/TAD4Test.s"
-	@echo "... aula10/TAD4/TimeInterval.o"
-	@echo "... aula10/TAD4/TimeInterval.i"
-	@echo "... aula10/TAD4/TimeInterval.s"
-	@echo "... aula8/TAD2/Date.o"
-	@echo "... aula8/TAD2/Date.i"
-	@echo "... aula8/TAD2/Date.s"
-	@echo "... aula8/TAD2/DateTime.o"
-	@echo "... aula8/TAD2/DateTime.i"
-	@echo "... aula8/TAD2/DateTime.s"
-	@echo "... aula8/TAD2/Time.o"
-	@echo "... aula8/TAD2/Time.i"
-	@echo "... aula8/TAD2/Time.s"
+	@echo "... aula11/FileMerge.o"
+	@echo "... aula11/FileMerge.i"
+	@echo "... aula11/FileMerge.s"
+	@echo "... aula11/FileReader.o"
+	@echo "... aula11/FileReader.i"
+	@echo "... aula11/FileReader.s"
+	@echo "... aula11/MinHeap.o"
+	@echo "... aula11/MinHeap.i"
+	@echo "... aula11/MinHeap.s"
+	@echo "... aula11/MinHeapTest.o"
+	@echo "... aula11/MinHeapTest.i"
+	@echo "... aula11/MinHeapTest.s"
 .PHONY : help
 
 
