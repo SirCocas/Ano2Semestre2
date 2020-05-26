@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o CMakeFiles/cpp.dir/aula11/FileReader.cpp.o CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.o  -o cpp.exe -Wl,--out-implib,libcpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o CMakeFiles/cpp.dir/aula11/FileReader.cpp.o CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o  -o cpp.exe -Wl,--out-implib,libcpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

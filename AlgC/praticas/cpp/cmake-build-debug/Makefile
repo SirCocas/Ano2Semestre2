@@ -204,33 +204,6 @@ aula11/MinHeap.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeap.cpp.s
 .PHONY : aula11/MinHeap.cpp.s
 
-aula11/MinHeapTest.o: aula11/MinHeapTest.cpp.o
-
-.PHONY : aula11/MinHeapTest.o
-
-# target to build an object file
-aula11/MinHeapTest.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.o
-.PHONY : aula11/MinHeapTest.cpp.o
-
-aula11/MinHeapTest.i: aula11/MinHeapTest.cpp.i
-
-.PHONY : aula11/MinHeapTest.i
-
-# target to preprocess a source file
-aula11/MinHeapTest.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.i
-.PHONY : aula11/MinHeapTest.cpp.i
-
-aula11/MinHeapTest.s: aula11/MinHeapTest.cpp.s
-
-.PHONY : aula11/MinHeapTest.s
-
-# target to generate assembly for a file
-aula11/MinHeapTest.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeapTest.cpp.s
-.PHONY : aula11/MinHeapTest.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,9 +222,6 @@ help:
 	@echo "... aula11/MinHeap.o"
 	@echo "... aula11/MinHeap.i"
 	@echo "... aula11/MinHeap.s"
-	@echo "... aula11/MinHeapTest.o"
-	@echo "... aula11/MinHeapTest.i"
-	@echo "... aula11/MinHeapTest.s"
 .PHONY : help
 
 

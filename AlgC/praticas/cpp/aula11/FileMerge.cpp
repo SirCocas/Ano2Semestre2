@@ -1,5 +1,5 @@
-// NMEC: 
-// NOME: 
+// NMEC: 92968
+// NOME: Sofia Teixeira Vaz
 //
 // João Manuel Rodrigues, AlgC, May 2020
 // Joaquim Madeira, AlgC, May 2020
@@ -35,61 +35,68 @@
 // That is why the items are stored as FileReader objects.
 
 // The comparator for FileReaders (compares the last lines read from each)
-int comparator(const void* p1, const void* p2) {
-   FileReader* f1 = (FileReader*)p1;
-   FileReader* f2 = (FileReader*)p2;
-   return strcmp(f1->buffer, f2->buffer);
+int comparator(const void *p1, const void *p2) {
+    FileReader *f1 = (FileReader *) p1;
+    FileReader *f2 = (FileReader *) p2;
+    return strcmp(f1->buffer, f2->buffer);
 }
 
 // The printer for FileReader: print the last line (and its file serial number)
-void printer(void* p) {
-   FileReader* fr = (FileReader*)p;
-   printf("%s ", fr->buffer);
+void printer(void *p) {
+    FileReader *fr = (FileReader *) p;
+    printf("%s ", fr->buffer);
 }
 
 
-int main(int argc, char* argv[]) {
-   
-   // Number of files in arguments:
-   int numFiles = argc-1;
-   
-   // Create heap with capacity for one line buffer per file:
-   MinHeap* H = ...
-   if (H == NULL) abort();
-   
-   for (int i = 0; i < numFiles; i++) {
-      // Open a FileReader for each argument:
-      FileReader* fr = ...
-      if (FileReaderError(fr)) { perror(fr->name); exit(1); }
-      // Insert this file reader object into the Heap:
-      //...
-   }
+int main(int argc, char *argv[]) {
 
-   while (numFiles > 0) {
-      FileReader* fr;
-      
-      // 1a. Get the first file reader from the Heap and remove it:
-      fr = ...
-      
-      
-      // 1b. Output the current line from that reader:
-      char* line = FileReaderBuffer(fr);
-      fputs(line, stdout);             // output the line
-      free(line);                      // and free the buffer
-      
-      // 2a. Advance the reader to the next line:
-      int ok = ...
-      
-      if (ok) {         // On success:
-         // 2b: Reinsert file reader into the Heap:
-         //...
-      } else {          // On EOF or Error:
-         // 2c: Close the file reader:
-         //...
-         numFiles--;    // Decrease number of open files
-         if (FileReaderError(fr)) { perror(fr->name); exit(2); }
-      }
-   }
-   
-   MinHeapDestroy(&H);
+
+    // Number of files in arguments:
+    int numFiles = argc - 1;
+
+    // Create heap with capacity for one line buffer per file:
+    MinHeap *H = MinHeapCreate(numFiles, comparator, printer);
+    if (H == NULL) abort();
+
+    for (int i = 0; i < numFiles; i++) {
+        // Open a FileReader for each argument:
+        FileReader *fr = FileReaderOpen(argv[i + 1]);
+        if (FileReaderError(fr)) {
+            perror(fr->name);
+            exit(1);
+        }
+        // Insert this file reader object into the Heap:
+        MinHeapInsert(H, fr);
+    }
+
+    while (numFiles > 0) {
+        FileReader *fr;
+
+        // 1a. Get the first file reader from the Heap and remove it:
+        fr = (FileReader *) (MinHeapGetMin(H));
+        MinHeapRemoveMin(H);
+
+        // 1b. Output the current line from that reader:
+        char *line = FileReaderBuffer(fr);
+        fputs(line, stdout);             // output the line
+        free(line);                      // and free the buffer
+
+        // 2a. Advance the reader to the next line:
+        int ok = (FileReaderNextLine(fr));
+
+        if (ok) {         // On success:
+            // 2b: Reinsert file reader into the Heap:
+            MinHeapInsert(H, fr);
+        } else {          // On EOF or Error:
+            // 2c: Close the file reader:
+            FileReaderClose(fr);
+            numFiles--;    // Decrease number of open files
+            if (FileReaderError(fr)) {
+                perror(fr->name);
+                exit(2);
+            }
+        }
+    }
+
+    MinHeapDestroy(&H);
 }
