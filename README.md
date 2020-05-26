@@ -8,6 +8,7 @@
 - [x] Ver aula 19
 - [x] Acabar guião prático 9
 - [x] Ver video-aula 20&21
+- [ ] Acabar de ver aulas 24&25 (fiquei na parte C)
 - [ ] Fazer exercícios teóricos
 - [ ] Refazer guiões práticos e problemas extra de trás para a frente mas desta vez para a placa de teste
 - [ ] Testar parte1.c na placa (guião 9)
