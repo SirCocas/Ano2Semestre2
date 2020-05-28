@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/ex.dir/main.c.o  -o ex 
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o  -o ex.exe -Wl,--out-implib,libex.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

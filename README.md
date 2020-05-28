@@ -70,4 +70,5 @@
 - [x] Entregar guião 8
 - [x] Entregar guião 9
 - [x] Ler livro dos apontamentos
-- [ ] Ler bibliografia física
+- [ ] Ler bibliografia física (Data Structures)
+- [ ] Ler bibliografia física (The C Proggramming Language)
