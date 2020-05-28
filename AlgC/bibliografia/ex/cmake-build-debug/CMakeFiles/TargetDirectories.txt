@@ -1,3 +1,3 @@
-/home/sircocas/Desktop/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sircocas/Desktop/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/ex.dir
-/home/sircocas/Desktop/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/ex.dir
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/edit_cache.dir

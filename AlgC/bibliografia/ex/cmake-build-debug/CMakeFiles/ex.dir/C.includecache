@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/sircocas/Desktop/Ano2Semestre2/AlgC/bibliografia/ex/main.c
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/DataStructuresAndAlgorithmAnalysisInC/chapter1.c
 stdio.h
+-
+stdlib.h
 -
 

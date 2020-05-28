@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ex.dir/main.c.o"
-  "ex"
+  "CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o"
+  "ex.exe"
   "ex.pdb"
+  "libex.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

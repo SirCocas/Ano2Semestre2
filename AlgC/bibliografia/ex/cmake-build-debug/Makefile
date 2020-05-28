@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/sircocas/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/sofas/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /home/sircocas/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/sofas/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sircocas/Desktop/Ano2Semestre2/AlgC/bibliografia/ex
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sircocas/Desktop/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/sircocas/Desktop/Ano2Semestre2/AlgC/bibliografia/ex/cma
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/sircocas/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/sofas/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/sircocas/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/sofas/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sircocas/Desktop/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles /home/sircocas/Desktop/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sircocas/Desktop/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ ex/fast:
 	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/build
 .PHONY : ex/fast
 
-main.o: main.c.o
+DataStructuresAndAlgorithmAnalysisInC/chapter1.o: DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o
 
-.PHONY : main.o
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/main.c.o
-.PHONY : main.c.o
+DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o
 
-main.i: main.c.i
+DataStructuresAndAlgorithmAnalysisInC/chapter1.i: DataStructuresAndAlgorithmAnalysisInC/chapter1.c.i
 
-.PHONY : main.i
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/main.c.i
-.PHONY : main.c.i
+DataStructuresAndAlgorithmAnalysisInC/chapter1.c.i:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter1.c.i
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.c.i
 
-main.s: main.c.s
+DataStructuresAndAlgorithmAnalysisInC/chapter1.s: DataStructuresAndAlgorithmAnalysisInC/chapter1.c.s
 
-.PHONY : main.s
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/main.c.s
-.PHONY : main.c.s
+DataStructuresAndAlgorithmAnalysisInC/chapter1.c.s:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter1.c.s
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... DataStructuresAndAlgorithmAnalysisInC/chapter1.o"
+	@echo "... DataStructuresAndAlgorithmAnalysisInC/chapter1.i"
+	@echo "... DataStructuresAndAlgorithmAnalysisInC/chapter1.s"
 .PHONY : help
 
 
