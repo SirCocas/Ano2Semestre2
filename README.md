@@ -31,9 +31,9 @@
 
 - [x] Acabar guião 2
 - [x] Acabar guião 3
-- [ ] Fazer exercícios EAC (fiquei no ex 18) - GET HELP
-- [ ] Fazer exercícios NSS (fiquei no 10) - GET HELP
-- [ ] Fazer exercícios Diodo (fiquei no 6) - GET HELP
+- [ ] Fazer exercícios EAC (fiquei no ex 19) HEEEEELP 19 and 20 cuz I'm dumb
+- [ ] Fazer exercícios NSS (fiquei no 11)
+- [ ] Fazer exercícios Diodo (fiquei no 6) - usar mins com mins e maxs com maxs
 - [ ] Fazer exercícios MosFet (fiquei no 2)
 - [ ] Fazer exercícios OpAmps
 - [ ] Fazer exercícios CMOS
