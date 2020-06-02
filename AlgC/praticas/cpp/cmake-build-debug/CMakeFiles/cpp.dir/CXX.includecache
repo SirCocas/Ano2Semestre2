@@ -6,25 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileMerge.cpp
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.cpp
+PriorityQueue.h
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.h
 assert.h
 -
 stdio.h
 -
 stdlib.h
 -
-string.h
--
-MinHeap.h
-/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.h
-FileReader.h
-/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.h
 
-/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.h
-stdio.h
--
-errno.h
--
-
-/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.h
+/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.h
 

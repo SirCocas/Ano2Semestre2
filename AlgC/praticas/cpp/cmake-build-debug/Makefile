@@ -123,86 +123,275 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-aula11/FileMerge.o: aula11/FileMerge.cpp.o
+aula12/Graph.o: aula12/Graph.c.o
 
-.PHONY : aula11/FileMerge.o
-
-# target to build an object file
-aula11/FileMerge.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o
-.PHONY : aula11/FileMerge.cpp.o
-
-aula11/FileMerge.i: aula11/FileMerge.cpp.i
-
-.PHONY : aula11/FileMerge.i
-
-# target to preprocess a source file
-aula11/FileMerge.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileMerge.cpp.i
-.PHONY : aula11/FileMerge.cpp.i
-
-aula11/FileMerge.s: aula11/FileMerge.cpp.s
-
-.PHONY : aula11/FileMerge.s
-
-# target to generate assembly for a file
-aula11/FileMerge.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileMerge.cpp.s
-.PHONY : aula11/FileMerge.cpp.s
-
-aula11/FileReader.o: aula11/FileReader.cpp.o
-
-.PHONY : aula11/FileReader.o
+.PHONY : aula12/Graph.o
 
 # target to build an object file
-aula11/FileReader.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileReader.cpp.o
-.PHONY : aula11/FileReader.cpp.o
+aula12/Graph.c.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/Graph.c.o
+.PHONY : aula12/Graph.c.o
 
-aula11/FileReader.i: aula11/FileReader.cpp.i
+aula12/Graph.i: aula12/Graph.c.i
 
-.PHONY : aula11/FileReader.i
+.PHONY : aula12/Graph.i
 
 # target to preprocess a source file
-aula11/FileReader.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileReader.cpp.i
-.PHONY : aula11/FileReader.cpp.i
+aula12/Graph.c.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/Graph.c.i
+.PHONY : aula12/Graph.c.i
 
-aula11/FileReader.s: aula11/FileReader.cpp.s
+aula12/Graph.s: aula12/Graph.c.s
 
-.PHONY : aula11/FileReader.s
+.PHONY : aula12/Graph.s
 
 # target to generate assembly for a file
-aula11/FileReader.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/FileReader.cpp.s
-.PHONY : aula11/FileReader.cpp.s
+aula12/Graph.c.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/Graph.c.s
+.PHONY : aula12/Graph.c.s
 
-aula11/MinHeap.o: aula11/MinHeap.cpp.o
+aula12/GraphBFSWithQueue.o: aula12/GraphBFSWithQueue.c.o
 
-.PHONY : aula11/MinHeap.o
+.PHONY : aula12/GraphBFSWithQueue.o
 
 # target to build an object file
-aula11/MinHeap.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o
-.PHONY : aula11/MinHeap.cpp.o
+aula12/GraphBFSWithQueue.c.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.o
+.PHONY : aula12/GraphBFSWithQueue.c.o
 
-aula11/MinHeap.i: aula11/MinHeap.cpp.i
+aula12/GraphBFSWithQueue.i: aula12/GraphBFSWithQueue.c.i
 
-.PHONY : aula11/MinHeap.i
+.PHONY : aula12/GraphBFSWithQueue.i
 
 # target to preprocess a source file
-aula11/MinHeap.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeap.cpp.i
-.PHONY : aula11/MinHeap.cpp.i
+aula12/GraphBFSWithQueue.c.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.i
+.PHONY : aula12/GraphBFSWithQueue.c.i
 
-aula11/MinHeap.s: aula11/MinHeap.cpp.s
+aula12/GraphBFSWithQueue.s: aula12/GraphBFSWithQueue.c.s
 
-.PHONY : aula11/MinHeap.s
+.PHONY : aula12/GraphBFSWithQueue.s
 
 # target to generate assembly for a file
-aula11/MinHeap.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula11/MinHeap.cpp.s
-.PHONY : aula11/MinHeap.cpp.s
+aula12/GraphBFSWithQueue.c.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.s
+.PHONY : aula12/GraphBFSWithQueue.c.s
+
+aula12/GraphDFSRec.o: aula12/GraphDFSRec.c.o
+
+.PHONY : aula12/GraphDFSRec.o
+
+# target to build an object file
+aula12/GraphDFSRec.c.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.o
+.PHONY : aula12/GraphDFSRec.c.o
+
+aula12/GraphDFSRec.i: aula12/GraphDFSRec.c.i
+
+.PHONY : aula12/GraphDFSRec.i
+
+# target to preprocess a source file
+aula12/GraphDFSRec.c.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.i
+.PHONY : aula12/GraphDFSRec.c.i
+
+aula12/GraphDFSRec.s: aula12/GraphDFSRec.c.s
+
+.PHONY : aula12/GraphDFSRec.s
+
+# target to generate assembly for a file
+aula12/GraphDFSRec.c.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.s
+.PHONY : aula12/GraphDFSRec.c.s
+
+aula12/GraphDFSWithStack.o: aula12/GraphDFSWithStack.c.o
+
+.PHONY : aula12/GraphDFSWithStack.o
+
+# target to build an object file
+aula12/GraphDFSWithStack.c.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.o
+.PHONY : aula12/GraphDFSWithStack.c.o
+
+aula12/GraphDFSWithStack.i: aula12/GraphDFSWithStack.c.i
+
+.PHONY : aula12/GraphDFSWithStack.i
+
+# target to preprocess a source file
+aula12/GraphDFSWithStack.c.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.i
+.PHONY : aula12/GraphDFSWithStack.c.i
+
+aula12/GraphDFSWithStack.s: aula12/GraphDFSWithStack.c.s
+
+.PHONY : aula12/GraphDFSWithStack.s
+
+# target to generate assembly for a file
+aula12/GraphDFSWithStack.c.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.s
+.PHONY : aula12/GraphDFSWithStack.c.s
+
+aula12/IntegersQueue.o: aula12/IntegersQueue.c.o
+
+.PHONY : aula12/IntegersQueue.o
+
+# target to build an object file
+aula12/IntegersQueue.c.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/IntegersQueue.c.o
+.PHONY : aula12/IntegersQueue.c.o
+
+aula12/IntegersQueue.i: aula12/IntegersQueue.c.i
+
+.PHONY : aula12/IntegersQueue.i
+
+# target to preprocess a source file
+aula12/IntegersQueue.c.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/IntegersQueue.c.i
+.PHONY : aula12/IntegersQueue.c.i
+
+aula12/IntegersQueue.s: aula12/IntegersQueue.c.s
+
+.PHONY : aula12/IntegersQueue.s
+
+# target to generate assembly for a file
+aula12/IntegersQueue.c.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/IntegersQueue.c.s
+.PHONY : aula12/IntegersQueue.c.s
+
+aula12/IntegersStack.o: aula12/IntegersStack.c.o
+
+.PHONY : aula12/IntegersStack.o
+
+# target to build an object file
+aula12/IntegersStack.c.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/IntegersStack.c.o
+.PHONY : aula12/IntegersStack.c.o
+
+aula12/IntegersStack.i: aula12/IntegersStack.c.i
+
+.PHONY : aula12/IntegersStack.i
+
+# target to preprocess a source file
+aula12/IntegersStack.c.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/IntegersStack.c.i
+.PHONY : aula12/IntegersStack.c.i
+
+aula12/IntegersStack.s: aula12/IntegersStack.c.s
+
+.PHONY : aula12/IntegersStack.s
+
+# target to generate assembly for a file
+aula12/IntegersStack.c.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/IntegersStack.c.s
+.PHONY : aula12/IntegersStack.c.s
+
+aula12/PriorityQueue.o: aula12/PriorityQueue.c.o
+
+.PHONY : aula12/PriorityQueue.o
+
+# target to build an object file
+aula12/PriorityQueue.c.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/PriorityQueue.c.o
+.PHONY : aula12/PriorityQueue.c.o
+
+aula12/PriorityQueue.i: aula12/PriorityQueue.c.i
+
+.PHONY : aula12/PriorityQueue.i
+
+# target to preprocess a source file
+aula12/PriorityQueue.c.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/PriorityQueue.c.i
+.PHONY : aula12/PriorityQueue.c.i
+
+aula12/PriorityQueue.s: aula12/PriorityQueue.c.s
+
+.PHONY : aula12/PriorityQueue.s
+
+# target to generate assembly for a file
+aula12/PriorityQueue.c.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/PriorityQueue.c.s
+.PHONY : aula12/PriorityQueue.c.s
+
+aula12/PriorityQueue.o: aula12/PriorityQueue.cpp.o
+
+.PHONY : aula12/PriorityQueue.o
+
+# target to build an object file
+aula12/PriorityQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.o
+.PHONY : aula12/PriorityQueue.cpp.o
+
+aula12/PriorityQueue.i: aula12/PriorityQueue.cpp.i
+
+.PHONY : aula12/PriorityQueue.i
+
+# target to preprocess a source file
+aula12/PriorityQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.i
+.PHONY : aula12/PriorityQueue.cpp.i
+
+aula12/PriorityQueue.s: aula12/PriorityQueue.cpp.s
+
+.PHONY : aula12/PriorityQueue.s
+
+# target to generate assembly for a file
+aula12/PriorityQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.s
+.PHONY : aula12/PriorityQueue.cpp.s
+
+aula12/SortedList.o: aula12/SortedList.c.o
+
+.PHONY : aula12/SortedList.o
+
+# target to build an object file
+aula12/SortedList.c.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/SortedList.c.o
+.PHONY : aula12/SortedList.c.o
+
+aula12/SortedList.i: aula12/SortedList.c.i
+
+.PHONY : aula12/SortedList.i
+
+# target to preprocess a source file
+aula12/SortedList.c.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/SortedList.c.i
+.PHONY : aula12/SortedList.c.i
+
+aula12/SortedList.s: aula12/SortedList.c.s
+
+.PHONY : aula12/SortedList.s
+
+# target to generate assembly for a file
+aula12/SortedList.c.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/SortedList.c.s
+.PHONY : aula12/SortedList.c.s
+
+aula12/example2.o: aula12/example2.c.o
+
+.PHONY : aula12/example2.o
+
+# target to build an object file
+aula12/example2.c.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/example2.c.o
+.PHONY : aula12/example2.c.o
+
+aula12/example2.i: aula12/example2.c.i
+
+.PHONY : aula12/example2.i
+
+# target to preprocess a source file
+aula12/example2.c.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/example2.c.i
+.PHONY : aula12/example2.c.i
+
+aula12/example2.s: aula12/example2.c.s
+
+.PHONY : aula12/example2.s
+
+# target to generate assembly for a file
+aula12/example2.c.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/aula12/example2.c.s
+.PHONY : aula12/example2.c.s
 
 # Help Target
 help:
@@ -213,15 +402,36 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp"
 	@echo "... edit_cache"
-	@echo "... aula11/FileMerge.o"
-	@echo "... aula11/FileMerge.i"
-	@echo "... aula11/FileMerge.s"
-	@echo "... aula11/FileReader.o"
-	@echo "... aula11/FileReader.i"
-	@echo "... aula11/FileReader.s"
-	@echo "... aula11/MinHeap.o"
-	@echo "... aula11/MinHeap.i"
-	@echo "... aula11/MinHeap.s"
+	@echo "... aula12/Graph.o"
+	@echo "... aula12/Graph.i"
+	@echo "... aula12/Graph.s"
+	@echo "... aula12/GraphBFSWithQueue.o"
+	@echo "... aula12/GraphBFSWithQueue.i"
+	@echo "... aula12/GraphBFSWithQueue.s"
+	@echo "... aula12/GraphDFSRec.o"
+	@echo "... aula12/GraphDFSRec.i"
+	@echo "... aula12/GraphDFSRec.s"
+	@echo "... aula12/GraphDFSWithStack.o"
+	@echo "... aula12/GraphDFSWithStack.i"
+	@echo "... aula12/GraphDFSWithStack.s"
+	@echo "... aula12/IntegersQueue.o"
+	@echo "... aula12/IntegersQueue.i"
+	@echo "... aula12/IntegersQueue.s"
+	@echo "... aula12/IntegersStack.o"
+	@echo "... aula12/IntegersStack.i"
+	@echo "... aula12/IntegersStack.s"
+	@echo "... aula12/PriorityQueue.o"
+	@echo "... aula12/PriorityQueue.i"
+	@echo "... aula12/PriorityQueue.s"
+	@echo "... aula12/PriorityQueue.o"
+	@echo "... aula12/PriorityQueue.i"
+	@echo "... aula12/PriorityQueue.s"
+	@echo "... aula12/SortedList.o"
+	@echo "... aula12/SortedList.i"
+	@echo "... aula12/SortedList.s"
+	@echo "... aula12/example2.o"
+	@echo "... aula12/example2.i"
+	@echo "... aula12/example2.s"
 .PHONY : help
 
 

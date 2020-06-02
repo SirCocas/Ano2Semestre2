@@ -57,60 +57,165 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
-CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o: ../aula11/FileMerge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileMerge.cpp
+CMakeFiles/cpp.dir/aula12/Graph.c.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula12/Graph.c.o: ../aula12/Graph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cpp.dir/aula12/Graph.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp.dir/aula12/Graph.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/Graph.c
 
-CMakeFiles/cpp.dir/aula11/FileMerge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula11/FileMerge.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileMerge.cpp > CMakeFiles/cpp.dir/aula11/FileMerge.cpp.i
+CMakeFiles/cpp.dir/aula12/Graph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp.dir/aula12/Graph.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/Graph.c > CMakeFiles/cpp.dir/aula12/Graph.c.i
 
-CMakeFiles/cpp.dir/aula11/FileMerge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula11/FileMerge.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileMerge.cpp -o CMakeFiles/cpp.dir/aula11/FileMerge.cpp.s
+CMakeFiles/cpp.dir/aula12/Graph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp.dir/aula12/Graph.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/Graph.c -o CMakeFiles/cpp.dir/aula12/Graph.c.s
 
-CMakeFiles/cpp.dir/aula11/FileReader.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/aula11/FileReader.cpp.o: ../aula11/FileReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/aula11/FileReader.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula11/FileReader.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.cpp
+CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.o: ../aula12/GraphBFSWithQueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphBFSWithQueue.c
 
-CMakeFiles/cpp.dir/aula11/FileReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula11/FileReader.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.cpp > CMakeFiles/cpp.dir/aula11/FileReader.cpp.i
+CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphBFSWithQueue.c > CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.i
 
-CMakeFiles/cpp.dir/aula11/FileReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula11/FileReader.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/FileReader.cpp -o CMakeFiles/cpp.dir/aula11/FileReader.cpp.s
+CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphBFSWithQueue.c -o CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.s
 
-CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o: ../aula11/MinHeap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.cpp
+CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.o: ../aula12/GraphDFSRec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphDFSRec.c
 
-CMakeFiles/cpp.dir/aula11/MinHeap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula11/MinHeap.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.cpp > CMakeFiles/cpp.dir/aula11/MinHeap.cpp.i
+CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphDFSRec.c > CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.i
 
-CMakeFiles/cpp.dir/aula11/MinHeap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula11/MinHeap.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula11/MinHeap.cpp -o CMakeFiles/cpp.dir/aula11/MinHeap.cpp.s
+CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphDFSRec.c -o CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.s
+
+CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.o: ../aula12/GraphDFSWithStack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphDFSWithStack.c
+
+CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphDFSWithStack.c > CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.i
+
+CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphDFSWithStack.c -o CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.s
+
+CMakeFiles/cpp.dir/aula12/IntegersQueue.c.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula12/IntegersQueue.c.o: ../aula12/IntegersQueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cpp.dir/aula12/IntegersQueue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp.dir/aula12/IntegersQueue.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/IntegersQueue.c
+
+CMakeFiles/cpp.dir/aula12/IntegersQueue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp.dir/aula12/IntegersQueue.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/IntegersQueue.c > CMakeFiles/cpp.dir/aula12/IntegersQueue.c.i
+
+CMakeFiles/cpp.dir/aula12/IntegersQueue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp.dir/aula12/IntegersQueue.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/IntegersQueue.c -o CMakeFiles/cpp.dir/aula12/IntegersQueue.c.s
+
+CMakeFiles/cpp.dir/aula12/IntegersStack.c.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula12/IntegersStack.c.o: ../aula12/IntegersStack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cpp.dir/aula12/IntegersStack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp.dir/aula12/IntegersStack.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/IntegersStack.c
+
+CMakeFiles/cpp.dir/aula12/IntegersStack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp.dir/aula12/IntegersStack.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/IntegersStack.c > CMakeFiles/cpp.dir/aula12/IntegersStack.c.i
+
+CMakeFiles/cpp.dir/aula12/IntegersStack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp.dir/aula12/IntegersStack.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/IntegersStack.c -o CMakeFiles/cpp.dir/aula12/IntegersStack.c.s
+
+CMakeFiles/cpp.dir/aula12/PriorityQueue.c.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula12/PriorityQueue.c.o: ../aula12/PriorityQueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cpp.dir/aula12/PriorityQueue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp.dir/aula12/PriorityQueue.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.c
+
+CMakeFiles/cpp.dir/aula12/PriorityQueue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp.dir/aula12/PriorityQueue.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.c > CMakeFiles/cpp.dir/aula12/PriorityQueue.c.i
+
+CMakeFiles/cpp.dir/aula12/PriorityQueue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp.dir/aula12/PriorityQueue.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.c -o CMakeFiles/cpp.dir/aula12/PriorityQueue.c.s
+
+CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.o: ../aula12/PriorityQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.o -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.cpp
+
+CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.cpp > CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.i
+
+CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.cpp -o CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.s
+
+CMakeFiles/cpp.dir/aula12/SortedList.c.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula12/SortedList.c.o: ../aula12/SortedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cpp.dir/aula12/SortedList.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp.dir/aula12/SortedList.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/SortedList.c
+
+CMakeFiles/cpp.dir/aula12/SortedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp.dir/aula12/SortedList.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/SortedList.c > CMakeFiles/cpp.dir/aula12/SortedList.c.i
+
+CMakeFiles/cpp.dir/aula12/SortedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp.dir/aula12/SortedList.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/SortedList.c -o CMakeFiles/cpp.dir/aula12/SortedList.c.s
+
+CMakeFiles/cpp.dir/aula12/example2.c.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/aula12/example2.c.o: ../aula12/example2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cpp.dir/aula12/example2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp.dir/aula12/example2.c.o   -c /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/example2.c
+
+CMakeFiles/cpp.dir/aula12/example2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp.dir/aula12/example2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/example2.c > CMakeFiles/cpp.dir/aula12/example2.c.i
+
+CMakeFiles/cpp.dir/aula12/example2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp.dir/aula12/example2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/example2.c -o CMakeFiles/cpp.dir/aula12/example2.c.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o" \
-"CMakeFiles/cpp.dir/aula11/FileReader.cpp.o" \
-"CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o"
+"CMakeFiles/cpp.dir/aula12/Graph.c.o" \
+"CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.o" \
+"CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.o" \
+"CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.o" \
+"CMakeFiles/cpp.dir/aula12/IntegersQueue.c.o" \
+"CMakeFiles/cpp.dir/aula12/IntegersStack.c.o" \
+"CMakeFiles/cpp.dir/aula12/PriorityQueue.c.o" \
+"CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.o" \
+"CMakeFiles/cpp.dir/aula12/SortedList.c.o" \
+"CMakeFiles/cpp.dir/aula12/example2.c.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
-cpp.exe: CMakeFiles/cpp.dir/aula11/FileMerge.cpp.o
-cpp.exe: CMakeFiles/cpp.dir/aula11/FileReader.cpp.o
-cpp.exe: CMakeFiles/cpp.dir/aula11/MinHeap.cpp.o
+cpp.exe: CMakeFiles/cpp.dir/aula12/Graph.c.o
+cpp.exe: CMakeFiles/cpp.dir/aula12/GraphBFSWithQueue.c.o
+cpp.exe: CMakeFiles/cpp.dir/aula12/GraphDFSRec.c.o
+cpp.exe: CMakeFiles/cpp.dir/aula12/GraphDFSWithStack.c.o
+cpp.exe: CMakeFiles/cpp.dir/aula12/IntegersQueue.c.o
+cpp.exe: CMakeFiles/cpp.dir/aula12/IntegersStack.c.o
+cpp.exe: CMakeFiles/cpp.dir/aula12/PriorityQueue.c.o
+cpp.exe: CMakeFiles/cpp.dir/aula12/PriorityQueue.cpp.o
+cpp.exe: CMakeFiles/cpp.dir/aula12/SortedList.c.o
+cpp.exe: CMakeFiles/cpp.dir/aula12/example2.c.o
 cpp.exe: CMakeFiles/cpp.dir/build.make
 cpp.exe: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cpp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable cpp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
