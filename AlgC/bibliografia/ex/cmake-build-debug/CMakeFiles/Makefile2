@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/ex.dir/all:
 	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/depend
 	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target ex"
 .PHONY : CMakeFiles/ex.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ex.dir/rule

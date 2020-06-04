@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o"
+  "CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.o"
+  "CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter2.c.o"
   "ex.exe"
   "ex.pdb"
   "libex.dll.a"

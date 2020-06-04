@@ -41,7 +41,7 @@
 - [ ] Fazer teste teórico 2 18-19
 - [ ] Fazer teste teórico 2 17-18
 - [ ] Fazer teste teórico 1 17-18
-- [ ] Fazer teste teórico 1 18-19
+- [ ] Fazer teste teórico 1 18-19 (fiquei no 9)
 
 ### LFA
 
@@ -71,4 +71,5 @@
 - [x] Entregar guião 9
 - [x] Ler livro dos apontamentos
 - [ ] Ler bibliografia física (Data Structures)
-- [ ] Ler bibliografia física (The C Proggramming Language)
+- [ ] Fazer testes do Daniel
+- [ ] Ler bibliografia física (The C Programming Language)

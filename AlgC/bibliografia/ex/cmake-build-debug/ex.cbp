@@ -74,7 +74,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/DataStructuresAndAlgorithmAnalysisInC/chapter1.c">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c">
+			<Option target="ex"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.h">
+			<Option target="ex"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/DataStructuresAndAlgorithmAnalysisInC/chapter2.c">
 			<Option target="ex"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/CMakeLists.txt">

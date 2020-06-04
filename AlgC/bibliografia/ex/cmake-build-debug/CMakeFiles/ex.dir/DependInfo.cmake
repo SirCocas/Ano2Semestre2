@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/DataStructuresAndAlgorithmAnalysisInC/chapter1.c" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.o"
+  "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/DataStructuresAndAlgorithmAnalysisInC/chapter2.c" "/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/bibliografia/ex/cmake-build-debug/CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

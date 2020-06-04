@@ -123,32 +123,59 @@ ex/fast:
 	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/build
 .PHONY : ex/fast
 
-DataStructuresAndAlgorithmAnalysisInC/chapter1.o: DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o
+DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.o: DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.o
 
-.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.o
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.o
 
 # target to build an object file
-DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o
-.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.c.o
+DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.o:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.o
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.o
 
-DataStructuresAndAlgorithmAnalysisInC/chapter1.i: DataStructuresAndAlgorithmAnalysisInC/chapter1.c.i
+DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.i: DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.i
 
-.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.i
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.i
 
 # target to preprocess a source file
-DataStructuresAndAlgorithmAnalysisInC/chapter1.c.i:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter1.c.i
-.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.c.i
+DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.i:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.i
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.i
 
-DataStructuresAndAlgorithmAnalysisInC/chapter1.s: DataStructuresAndAlgorithmAnalysisInC/chapter1.c.s
+DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.s: DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.s
 
-.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.s
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.s
 
 # target to generate assembly for a file
-DataStructuresAndAlgorithmAnalysisInC/chapter1.c.s:
-	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter1.c.s
-.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter1.c.s
+DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.s:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.s
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c.s
+
+DataStructuresAndAlgorithmAnalysisInC/chapter2.o: DataStructuresAndAlgorithmAnalysisInC/chapter2.c.o
+
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter2.o
+
+# target to build an object file
+DataStructuresAndAlgorithmAnalysisInC/chapter2.c.o:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter2.c.o
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter2.c.o
+
+DataStructuresAndAlgorithmAnalysisInC/chapter2.i: DataStructuresAndAlgorithmAnalysisInC/chapter2.c.i
+
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter2.i
+
+# target to preprocess a source file
+DataStructuresAndAlgorithmAnalysisInC/chapter2.c.i:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter2.c.i
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter2.c.i
+
+DataStructuresAndAlgorithmAnalysisInC/chapter2.s: DataStructuresAndAlgorithmAnalysisInC/chapter2.c.s
+
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter2.s
+
+# target to generate assembly for a file
+DataStructuresAndAlgorithmAnalysisInC/chapter2.c.s:
+	$(MAKE) -f CMakeFiles/ex.dir/build.make CMakeFiles/ex.dir/DataStructuresAndAlgorithmAnalysisInC/chapter2.c.s
+.PHONY : DataStructuresAndAlgorithmAnalysisInC/chapter2.c.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex"
 	@echo "... edit_cache"
-	@echo "... DataStructuresAndAlgorithmAnalysisInC/chapter1.o"
-	@echo "... DataStructuresAndAlgorithmAnalysisInC/chapter1.i"
-	@echo "... DataStructuresAndAlgorithmAnalysisInC/chapter1.s"
+	@echo "... DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.o"
+	@echo "... DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.i"
+	@echo "... DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.s"
+	@echo "... DataStructuresAndAlgorithmAnalysisInC/chapter2.o"
+	@echo "... DataStructuresAndAlgorithmAnalysisInC/chapter2.i"
+	@echo "... DataStructuresAndAlgorithmAnalysisInC/chapter2.s"
 .PHONY : help
 
 
