@@ -38,7 +38,7 @@
 - [ ] Ler bloco 3
 - [ ] Ler bloco 5
 - [ ] Ler bloco 6
-- [ ] Fazer exame prático modelo
+- [x] Fazer exame prático modelo
 - [ ] Fazer exame teórico modelo
 - [ ] Ler bloco 4
 - [ ] Ler bloco 7
