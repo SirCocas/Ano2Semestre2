@@ -80,16 +80,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/Graph.c">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/Graph.c">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/Graph.h">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/Graph.h">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphBFSWithQueue.c">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/GraphBellmanFord.c">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphBFSWithQueue.h">
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/GraphBellmanFord.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/GraphDijkstra.c">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/GraphDijkstra.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/GraphShortestPathsWithQueue.c">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/GraphShortestPathsWithQueue.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/IntegersQueue.c">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/IntegersQueue.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/PriorityQueue.c">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/PriorityQueue.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/TAD6b/example3.c">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphDFSRec.c">
@@ -104,34 +131,16 @@
 		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/GraphDFSWithStack.h">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/IntegersQueue.c">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/IntegersQueue.h">
-			<Option target="cpp"/>
-		</Unit>
 		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/IntegersStack.c">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/IntegersStack.h">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.c">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/PriorityQueue.h">
-			<Option target="cpp"/>
-		</Unit>
 		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/SortedList.c">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/SortedList.h">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/aula12/example2.c">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/sofas/Documents/GitHub/Ano2Semestre2/AlgC/praticas/cpp/CMakeLists.txt">

@@ -28,34 +28,75 @@
 - [x] Acabar Guião Prático 4
 
 ## SE
-
+//maybe done?
 - [x] Acabar guião 2
 - [x] Acabar guião 3
-- [ ] Fazer exercícios EAC (fiquei no ex 19) HEEEEELP 19 and 20 cuz I'm dumb
-- [ ] Fazer exercícios NSS (fiquei no 11) HEEEEEELP
-- [ ] Fazer exercícios Diodo (fiquei no 6) - fiquei com os valores errados ????
-- [ ] Fazer exercícios MosFet (fiquei no 2)
-- [ ] Fazer exercícios OpAmps
-- [ ] Fazer exercícios CMOS
-- [ ] Fazer exercícios DAC-ADC
-- [ ] Fazer teste teórico 2 18-19 (fiquei no 11)
-- [ ] Fazer teste teórico 2 17-18
-- [ ] Fazer teste teórico 1 17-18
-- [x] Fazer teste teórico 1 18-19 
+- [ ] Fazer exercícios EAC (fiquei no ex 20)
+- [ ] Fazer exercícios NSS (fiquei no 11)
+- [ ] Fazer exercícios Diodo (fiquei no 6)
+- [ ] Fazer exercícios MosFet (fiquei no 3)
+- [ ] Fazer exercícios OpAmps (fiquei no 9)
+- [x] Fazer exercícios CMOS
+- [x] Fazer exercícios DAC-ADC
+- [x] Fazer teste teórico 2 18-19
+- [x] Fazer teste teórico 2 17-18
+- [x] Fazer teste teórico 1 17-18
+- [x] Fazer teste teórico 1 18-19
 
 ### LFA
 
 - [x] Acabar guião 1
 - [x] Preparar ANTLR
 - [x] Acabar guião 2
-- [ ] PROJETO!!
+- [x] PROJETO!!
+- [x] Ler apontamentos
+- [x] Ver vídeo prático de dúvidas
 - [ ] Ler bloco 3
 - [ ] Ler bloco 5
 - [ ] Ler bloco 6
+- [ ] Fazer exame prático modelo
+- [ ] Fazer exame teórico modelo
 - [ ] Fazer bloco 3 (prático)
 - [ ] Ler bloco 4
 - [ ] Ler bloco 7
 - [ ] Ler livro do dragão
+- [ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.2.1, ”The
+formal definition of a context-free grammar“
+- [ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.2.2,
+”Notational conventions
+- [ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.2.3,
+”Derivations“.
+- [ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.2.4,
+”Parse trees and derivations
+- [ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.2.5,
+”Ambiguity“
+- [ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.3.3,
+”Elimination of left recursion“.
+- [ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.3.4, ”Left
+factoring“.
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 5.1,
+”Syntax-directed definitions“
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 5.1.1,
+”Inherited and synthesized attributes“
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 5.1.2
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 5.2.1,
+”Dependency graphs“
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 5.2.2,
+”Ordering the evaluation of attributes“
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 5.2.3
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 5.2.4
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 5.2.5
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.4
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.4.3
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.4.1
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 2.4.2
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.4.4
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.5.1
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.5.2
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.5.3
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.5.4
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.6
+-[ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.6.2
 
 #### AlgC
 

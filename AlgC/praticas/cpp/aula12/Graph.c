@@ -10,7 +10,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 #include "SortedList.h"
 
 struct _Vertex {
@@ -170,10 +170,51 @@ Graph *GraphCopy(const Graph *g) {
 }
 
 Graph *GraphFromFile(FILE f) {
-    // COMPLETAR !!
+    int maximumLineLength = 128;
+    char *lineBuffer = (char *) malloc(sizeof(char) * maximumLineLength);
+    char ch = getc(&f);
+    int count = 0;
+    while ((ch != '\n') && (ch != EOF)) {
+        if (count == maximumLineLength) {
+            maximumLineLength += 128;
+            lineBuffer = realloc(lineBuffer, maximumLineLength);
+            if (lineBuffer == NULL) {
+                printf("Error reallocating space for line buffer.");
+                exit(1);
+            }
+        }
+        lineBuffer[count] = ch;
+        count++;
 
-    return 0;
+        ch = getc(&f);
+    }
+
+    lineBuffer[count] = '\0';
+    int isOriented = 0;
+    int isWeighed = 0;
+    if(atoi(lineBuffer[0])==1)
+        isOriented = 1;
+    if(atoi(lineBuffer[1])==1)
+        isWeighed = 1;
+    int numberVertix = atoi(lineBuffer[2]);
+    int numberSides = atoi(lineBuffer[3]);
+
+    int currentLine =4;
+    Graph* g = GraphCreate(numberVertix,isOriented,isWeighed);
+
+
+    for (int i = 0; i < numberSides; ++i) {
+        char* line = strtok(lineBuffer[currentLine+i],' ');
+        if(isWeighed){
+            GraphAddWeightedEdge(g,atoi(line[0]),atoi(line[1]), atoi(line[2]));
+        } else
+            GraphAddEdge(g, atoi(line[0]), atoi(line[1]));
+    }
+    return g;
 }
+
+
+
 
 // Graph
 
@@ -361,7 +402,7 @@ unsigned short GraphAddWeightedEdge(Graph *g, unsigned int v, unsigned int w,
 // CHECKING
 
 unsigned short GraphCheckInvariants(const Graph *g) {
-    // COMPLETAR !!
+   assert(g->numVertices>=0);
 
     return 0;
 }

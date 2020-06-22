@@ -123,6 +123,25 @@ void GraphDFSWithStackShowPath(const GraphDFSWithStack *p, unsigned int v) {
 }
 
 void GraphDFSWithStackDisplay(const GraphDFSWithStack *p) {
-    // COMPLETAR !!
+    int number = GraphGetNumVertices(p);
+    Stack *s = StackCreate(number);
+    StackPush(s, p->startVertex);
+    p->marked[p->startVertex] = 1;
+    while(! StackIsEmpty(s)){
+        auto v = StackPop(s);
+        int* arr = GraphGetAdjacentsTo(p,v);
+        int size = (sizeof(arr)/sizeof(int));
+        for (int i=0; i<size; i++){
+            if(p->marked[i]!= 1){
+                StackPush(s,i);
+                p->marked[i] = 1;
+                printf("%d :",i);
+                GraphDFSWithStackShowPath(p,i);
+                printf("\n");
+            }
+        }
+
+    }
+
 
 }

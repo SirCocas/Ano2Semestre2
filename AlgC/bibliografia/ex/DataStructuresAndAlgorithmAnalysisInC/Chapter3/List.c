@@ -62,7 +62,13 @@ void Insert(int X, List L, Position P) {
 }
 
 void DeleteList(List L) {
-    L = NULL;
+    Position P, Tmp;
+    P = L->Next;
+    while(P != NULL={
+		Tmp = P->Next;
+		free(P);
+		P = Temp;
+	}
 }
 
 Position Header(List L) {

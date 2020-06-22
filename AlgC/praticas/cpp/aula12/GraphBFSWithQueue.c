@@ -35,7 +35,7 @@ GraphBFSWithQueue *GraphBFSWithQueueExecute(Graph *g,
     unsigned int numVertices = GraphGetNumVertices(g);
 
     //
-    // COMPLETAR !!
+
     //
     // CRIAR e INICIALIZAR os campos de traversal
     // traversal->marked
@@ -133,6 +133,23 @@ void GraphBFSWithQueueShowPath(const GraphBFSWithQueue *p, unsigned int v) {
 }
 
 void GraphBFSWithQueueDisplay(const GraphBFSWithQueue *p) {
-    // COMPLETAR !!
+    int numVertix = GraphGetNumVertices(p);
+    Queue* q = QueueCreate(numVertix);
+    QueueEnqueue(q,p->startVertex);
+    p->marked[p->startVertex] = 1;
+    while(! QueueIsEmpty(q)){
+        auto v = QueueDequeue(q);
+        int* arr = GraphGetAdjacentsTo(p,v);
+        int size = (sizeof(arr)/sizeof(int));
+        for (int i=0; i<size; i++){
+            if(p->marked[i]!=1){
+                QueueEnqueue(q,i);
+                p->marked[i] = 1;
+                printf("%d : ",i);
+                GraphBFSWithQueuePathTo(p,i);
+                printf("\n");
+            }
+        }
+    }
 
 }
