@@ -27,22 +27,6 @@
 - [x] Acabar Guião Prático 1
 - [x] Acabar Guião Prático 4
 
-## SE
-//maybe done?
-- [x] Acabar guião 2
-- [x] Acabar guião 3
-- [ ] Fazer exercícios EAC (fiquei no ex 20)
-- [ ] Fazer exercícios NSS (fiquei no 11)
-- [ ] Fazer exercícios Diodo (fiquei no 6)
-- [ ] Fazer exercícios MosFet (fiquei no 3)
-- [ ] Fazer exercícios OpAmps (fiquei no 9)
-- [x] Fazer exercícios CMOS
-- [x] Fazer exercícios DAC-ADC
-- [x] Fazer teste teórico 2 18-19
-- [x] Fazer teste teórico 2 17-18
-- [x] Fazer teste teórico 1 17-18
-- [x] Fazer teste teórico 1 18-19
-
 ### LFA
 
 - [x] Acabar guião 1
@@ -56,9 +40,9 @@
 - [ ] Ler bloco 6
 - [ ] Fazer exame prático modelo
 - [ ] Fazer exame teórico modelo
-- [ ] Fazer bloco 3 (prático)
 - [ ] Ler bloco 4
 - [ ] Ler bloco 7
+- [ ] Fazer bloco 3 (prático)
 - [ ] Ler livro do dragão
 - [ ] ler Compilers: principles, techniques, and tools; Aho, Lam, Sethi and Ullman; 2nd edition; sec. 4.2.1, ”The
 formal definition of a context-free grammar“
