@@ -35,11 +35,11 @@
 - [x] PROJETO!!
 - [x] Ler apontamentos
 - [x] Ver vídeo prático de dúvidas
-- [ ] Ler bloco 3
+- [ ] Ler bloco 3 (vou na pág 4)
 - [ ] Ler bloco 5
 - [ ] Ler bloco 6
 - [x] Fazer exame prático modelo
-- [ ] Fazer exame teórico modelo
+- [x] Fazer exame teórico modelo
 - [ ] Ler bloco 4
 - [ ] Ler bloco 7
 - [ ] Fazer bloco 3 (prático)
