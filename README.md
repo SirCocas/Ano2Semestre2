@@ -10,7 +10,7 @@
 - [x] Ver video-aula 20&21
 - [x] Acabar de ver aulas 24&25
 - [ ] Refazer guiões práticos e problemas extra de trás para a frente mas desta vez para a placa de teste -- estou no AC2_exerc_P ex4
-- [ ] Fazer exercícios teóricos - fiquei na 10
+- [x] Fazer exercícios teóricos
 - [ ] Testar parte1.c na placa (guião 9)
 - [ ] Testar parte2.c na placa (guião 9)
 - [ ] Testar p1ex1.c na placa (prática 8) -> tem ex1 e 2 do guião
@@ -28,7 +28,7 @@
 - [x] Acabar Guião Prático 4
 
 ### LFA
-
+//maybe done?
 - [x] Acabar guião 1
 - [x] Preparar ANTLR
 - [x] Acabar guião 2
