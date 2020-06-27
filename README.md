@@ -9,7 +9,7 @@
 - [x] Acabar guião prático 9
 - [x] Ver video-aula 20&21
 - [x] Acabar de ver aulas 24&25
-- [ ] Refazer guiões práticos e problemas extra de trás para a frente mas desta vez para a placa de teste -- estou no AC2_exerc_P ex4
+- [ ] Refazer guiões práticos e problemas extra de trás para a frente mas desta vez para a placa de teste -- estou no AC2_exerc_P ex8
 - [x] Fazer exercícios teóricos
 - [ ] Testar parte1.c na placa (guião 9)
 - [ ] Testar parte2.c na placa (guião 9)
