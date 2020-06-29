@@ -8,6 +8,7 @@ void _int_(12) isr_T3(void)
     counter++;
     if (counter == 100)
         counter = 0;
+   IFS0bits.T3IF = 0;
 }
 
 void delay(int ms)
