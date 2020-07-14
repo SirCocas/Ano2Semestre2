@@ -3,4 +3,4 @@ project(ex C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ex DataStructuresAndAlgorithmAnalysisInC/chapter2.c DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.h)
+add_executable(ex DataStructuresAndAlgorithmAnalysisInC/chapter2.c DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.c DataStructuresAndAlgorithmAnalysisInC/Chapter3/List.h DataStructuresAndAlgorithmAnalysisInC/Chapter3/Polynomial.c DataStructuresAndAlgorithmAnalysisInC/Chapter3/_Cursor_H.h)
